@@ -29,7 +29,7 @@ export function assertAuthConfig(env: Env = process.env) {
 
   const github = !!env["GITHUB_CLIENT_ID"] && !!env["GITHUB_CLIENT_SECRET"];
   const google = !!env["GOOGLE_CLIENT_ID"] && !!env["GOOGLE_CLIENT_SECRET"];
-  if (!github && !google) console.warn("No OAuth provider is configured: nobody will be able to sign in");
+  if (!github && !google) console.warn("No OAuth provider is configured: only email + password sign-in is available");
   if (!env["GROQ_API_KEY"]) console.warn("GROQ_API_KEY is not set: the AI ticket assistant will answer 503");
   if (!env["TRUST_PROXY"]) {
     console.warn("TRUST_PROXY is not set: behind a reverse proxy every client will share the proxy's IP for rate limiting");
