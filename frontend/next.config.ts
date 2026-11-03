@@ -9,7 +9,7 @@ const config: NextConfig = {
   // Hide the floating Next.js logo/badge that dev mode draws over the page.
   devIndicators: false,
   async rewrites() {
-    return ["auth", "trains", "stations", "journeys", "profile", "me"].flatMap((prefix) => [
+    return ["auth", "trains", "stations", "journeys", "profile", "me", "plan", "bookings", "chat"].flatMap((prefix) => [
       { source: `/${prefix}`, destination: `${backend}/${prefix}` },
       { source: `/${prefix}/:path*`, destination: `${backend}/${prefix}/:path*` },
     ]);

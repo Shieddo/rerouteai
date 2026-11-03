@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { StationField } from "@/components/StationField";
 import { localNow, localToday } from "@/lib/format";
-import { mockStationSource } from "@/lib/stationSource";
+import { apiStationSource } from "@/lib/stationSource";
 import type { Station } from "@/lib/types";
 
 export const MAX_TRANSFERS_LIMIT = 4;
@@ -104,7 +104,7 @@ export function SearchForm({ mode, onModeChange, busy, onSubmit }: Props) {
       <div className="route">
         <StationField
           label="From"
-          source={mockStationSource}
+          source={apiStationSource}
           text={from.text}
           station={from.station}
           inputRef={fromInput}
@@ -124,7 +124,7 @@ export function SearchForm({ mode, onModeChange, busy, onSubmit }: Props) {
         </button>
         <StationField
           label="To"
-          source={mockStationSource}
+          source={apiStationSource}
           text={to.text}
           station={to.station}
           inputRef={toInput}

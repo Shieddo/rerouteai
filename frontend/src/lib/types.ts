@@ -111,3 +111,79 @@ export type SavedJourney = {
   journey: Journey;
 };
 
+
+// ---- Planner and bookings (mirrors backend/src/dataset/planner.ts and bookings.ts) ----------
+
+export const CLASS_OPTIONS = [
+  { code: "SL", label: "Sleeper (SL)" },
+  { code: "3A", label: "AC 3 Tier (3A)" },
+  { code: "2A", label: "AC 2 Tier (2A)" },
+  { code: "CC", label: "AC Chair Car (CC)" },
+] as const;
+export type ClassCode = (typeof CLASS_OPTIONS)[number]["code"];
+export type Preference = "balanced" | "cheapest" | "fastest" | "confirmed";
+export type BerthType = "LB" | "MB" | "UB" | "SL" | "SU" | "WS" | "MS" | "AS";
+
+export type LegStatus = "CONFIRMED" | "BERTH_CHANGE" | "TATKAL" | "TATKAL_BERTH_CHANGE" | "RAC" | "WAITLIST" | "CLOSED";
+
+export type BerthAssignment = {
+  passenger: number;
+  pieces: { berth: string; type: string; from: JourneyStation; to: JourneyStation }[];
+};
+
+export type PlannedLeg = JourneyLeg & {
+  classCode: ClassCode;
+  quota: "GN" | "TQ";
+  status: LegStatus;
+  seatsAvailable: number;
+  racPosition: number | null;
+  waitlistPosition: number | null;
+  confirmChance: number;
+  berths: BerthAssignment[];
+  berthChangeStations: JourneyStation[];
+  fare: number;
+  singleTicketFare: number;
+};
+
+export type PlanOption = {
+  id: string;
+  rank: number;
+  journey: Omit<Journey, "legs">;
+  legs: PlannedLeg[];
+  classCode: ClassCode;
+  passengers: number;
+  totalFare: number;
+  guaranteed: boolean;
+  confirmChance: number;
+  berthChanges: number;
+  tags: string[];
+  summary: string;
+};
+
+export type ClassQuote = { classCode: ClassCode; label: string; fare: number; status: LegStatus; confirmChance: number };
+
+export type PlanResult = { options: PlanOption[]; classComparison: ClassQuote[]; notes: string[] };
+
+export type BookingStatus = "CONFIRMED" | "PARTIALLY_CONFIRMED" | "WAITLISTED" | "CANCELLED";
+
+export type BookedLeg = Omit<PlannedLeg, "seatsAvailable" | "confirmChance" | "singleTicketFare" | "durationMinutes" | "distanceKm" | "trainType">;
+
+export type Booking = {
+  pnr: string;
+  createdAt: string;
+  status: BookingStatus;
+  passengers: number;
+  classCode: ClassCode;
+  source: JourneyStation;
+  destination: JourneyStation;
+  departure: string;
+  arrival: string;
+  legs: BookedLeg[];
+  totalFare: number;
+  refund: { amount: number; rule: string; daysBefore: number } | null;
+  history: { at: string; message: string }[];
+};
+
+export type RefundQuote = { amount: number; rule: string; daysBefore: number; ratio: number };
+
+export type ChatReply = { reply: string; options: PlanOption[]; bookings: Booking[] };

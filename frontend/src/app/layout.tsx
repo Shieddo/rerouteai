@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Aleo, Azeret_Mono, Host_Grotesk } from "next/font/google";
+import { ChatWidget } from "@/components/ChatWidget";
 import { Header } from "@/components/Header";
 import "./globals.css";
 
@@ -8,8 +9,8 @@ const hostGrotesk = Host_Grotesk({ subsets: ["latin"], variable: "--font-host-gr
 const azeretMono = Azeret_Mono({ subsets: ["latin"], variable: "--font-azeret-mono", display: "swap" });
 
 export const metadata: Metadata = {
-  title: "Reroute · Train search",
-  description: "Find alternative train journeys across India.",
+  title: "Reroute · Confirmed train tickets",
+  description: "Find, compare and book confirmed train seats across India, with an AI assistant.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -20,6 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           {children}
         </main>
+        <ChatWidget />
       </body>
     </html>
   );
