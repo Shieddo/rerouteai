@@ -1,0 +1,121 @@
+train_id,train_number,train_name,train_type,source_station_code,source_station_name,destination_station_code,destination_station_name,stop_count,service_days,service_days_verified,classes,demand_index,timetable_reconstructed,schedule_snapshot,timetable_is_reference_data,is_synthetic_record
+11058,11058,Asr Csmt Express,express,ASR,Amritsar,CSMT,Chhatrapati Shivaji Maharaj Terminus,84,daily (assumed),false,SL 3A 2A CC,0.980,false,2024-09,true,false
+11020,11020,Konark Express,express,BBS,Bhubaneswar,CSMT,Chhatrapati Shivaji Maharaj Terminus,43,daily (assumed),false,SL 3A 2A CC,1.053,false,2024-09,true,false
+05635,05635,Sgnr Ghy Special,express,SGNR,Shri Ganganagar,GHY,Guwahati,48,daily (assumed),false,SL 3A 2A CC,1.067,false,2024-09,true,false
+19019,19019,Bdts Hw Express,express,BDTS,Bandra Terminus,HW,Haridwar,74,daily (assumed),false,SL 3A 2A CC,0.872,false,2024-09,true,false
+18478,18478,Kalingautkal Express,express,YNRK,Yog Nagari Rishikesh,PURI,Puri,76,daily (assumed),false,SL 3A 2A CC,1.033,false,2024-09,true,false
+14814,14814,Bpl Ju Express,express,BPL,Bhopal Junction,JU,Jodhpur,68,daily (assumed),false,SL 3A 2A CC,0.863,false,2024-09,true,false
+16318,16318,Himsagar Express,express,SVDK,Shri Mata Vaishno Devi Katra,CAPE,Kanyakumari,70,daily (assumed),false,SL 3A 2A CC,0.994,false,2024-09,true,false
+15018,15018,Gkp Ltt Express,express,GKP,Gorakhpur,LTT,Lokmanyatilak,70,daily (assumed),false,SL 3A 2A CC,1.077,false,2024-09,true,false
+18237,18237,Krba-asr Express,express,KRBA,Korba,ASR,Amritsar,90,daily (assumed),false,SL 3A 2A CC,1.033,false,2024-09,true,false
+19166,19166,Sabarmati Express,express,DBG,Darbhanga,ADI,Ahmedabad,64,daily (assumed),false,SL 3A 2A CC,1.087,false,2024-09,true,false
+19014,19014,Kte Bsl Express,express,KTE,Katni,BSL,Bhusaval,61,daily (assumed),false,SL 3A 2A CC,0.868,false,2024-09,true,false
+15648,15648,Ghy Ltt Express,express,GHY,Guwahati,LTT,Lokmanyatilak,53,daily (assumed),false,SL 3A 2A CC,1.053,false,2024-09,true,false
+12617,12617,Mangladweep Express,express,ERS,Ernakulam,NZM,Hazrat Nizamuddin,48,daily (assumed),false,SL 3A 2A CC,0.999,false,2024-09,true,false
+16382,16382,Cape Pune Express,express,CAPE,Kanyakumari,PUNE,Pune Junction,55,daily (assumed),false,SL 3A 2A CC,0.960,false,2024-09,true,false
+17020,17020,Hyb Hsr Express,express,HYB,Hyderabad,HSR,Hisar,45,daily (assumed),false,SL 3A 2A CC,0.980,false,2024-09,true,false
+05045,05045,Lku Rjt Special,express,LKU,Lalkua,RJT,Rajkot,38,daily (assumed),false,SL 3A 2A CC,0.958,false,2024-09,true,false
+16587,16587,Bikaner Express,express,YPR,Yasvantpur,BKN,Bikaner,38,daily (assumed),false,SL 3A 2A CC,1.097,false,2024-09,true,false
+01883,01883,Bina Passenger,passenger,BINA,Bina Junction,GWL,Gwalior Junction,32,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+12177,12177,Chambal Express,express,HWH,Howrah,MTJ,Mathura Junction,35,daily (assumed),false,SL 3A 2A CC,0.985,true,2024-09,true,false
+11029,11029,Koyna Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,KOP,Kolhapur,29,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+18235,18235,Passenger,passenger,BPL,Bhopal Junction,BSP,Bilaspur,43,daily (assumed),false,SL 3A 2A CC,0.850,true,2024-09,true,false
+11463,11463,Smnh Jbp Express,express,VRL,Veraval,JBP,Jabalpur,51,daily (assumed),false,SL 3A 2A CC,0.980,false,2024-09,true,false
+14623,14623,Patalkot Express,express,SEY,Seoni,FZR,Firozpur Cant,43,daily (assumed),false,SL 3A 2A CC,0.994,false,2024-09,true,false
+16094,16094,Ljn Mas Express,express,LJN,Lucknow,MAS,Puratchi Thalaivar Dr Mgr Ctl,45,daily (assumed),false,SL 3A 2A CC,1.106,false,2024-09,true,false
+16351,16351,Nagarcoil Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,NCJ,Nagercoil Junction,42,daily (assumed),false,SL 3A 2A CC,1.028,false,2024-09,true,false
+11123,11123,Gwl Bju Express,express,GWL,Gwalior Junction,BJU,Barauni,42,daily (assumed),false,SL 3A 2A CC,0.916,false,2024-09,true,false
+11417,11417,Pune Sur Express,express,PUNE,Pune Junction,SUR,Solapur,27,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+19302,19302,Ypr Dadn Express,express,YPR,Yasvantpur,DADN,Dr Ambedkar Nagar,34,daily (assumed),false,SL 3A 2A CC,1.109,false,2024-09,true,false
+19565,19565,Okha Ddn Express,express,OKHA,Okha,DDN,Dehradoon,35,daily (assumed),false,SL 3A 2A CC,1.013,false,2024-09,true,false
+12807,12807,Samta Express,express,VSKP,Visakhapatnam,NZM,Hazrat Nizamuddin,38,daily (assumed),false,SL 3A 2A CC,1.114,false,2024-09,true,false
+12403,12403,Pryj Bkn Sf Express,superfast,PRYJ,Prayagraj,LGH,Lalgarh,29,daily (assumed),false,SL 3A 2A CC,0.882,false,2024-09,true,false
+11902,11902,Agc Vglj Express,express,AGC,Agra Cantt,VGLB,Veerangana Lakshmibai Jhansi,24,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+15945,15945,Ltt Dibrugarh Express,express,LTT,Lokmanyatilak,DBRG,Dibrugarh,53,daily (assumed),false,SL 3A 2A CC,1.019,false,2024-09,true,false
+13201,13201,Pnbe Ltt Express,express,PNBE,Patna,LTT,Lokmanyatilak,61,daily (assumed),false,SL 3A 2A CC,0.965,false,2024-09,true,false
+14864,14864,Marudhar Express,express,JU,Jodhpur,BCY,Varanasi City,36,daily (assumed),false,SL 3A 2A CC,0.987,false,2024-09,true,false
+12780,12780,Goa Express,express,NZM,Hazrat Nizamuddin,VSG,Vasco Da Gama,32,daily (assumed),false,SL 3A 2A CC,0.975,false,2024-09,true,false
+13026,13026,Bpl Hwh Express,express,BPL,Bhopal Junction,HWH,Howrah,27,daily (assumed),false,SL 3A 2A CC,1.037,false,2024-09,true,false
+11301,11301,Udyan Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,SBC,Ksr Bengaluru,33,daily (assumed),false,SL 3A 2A CC,0.902,false,2024-09,true,false
+12755,12755,Coa Bvc Sf Express,superfast,COA,Kakinada Port,BVC,Bhavnagar Terminus,32,daily (assumed),false,SL 3A 2A CC,1.018,false,2024-09,true,false
+11017,11017,Ltt Karaikal Express,express,LTT,Lokmanyatilak,KIK,Karaikal,32,daily (assumed),false,SL 3A 2A CC,0.999,false,2024-09,true,false
+15067,15067,Gkp Bdts Express,express,GKP,Gorakhpur,BDTS,Bandra Terminus,30,daily (assumed),false,SL 3A 2A CC,1.064,false,2024-09,true,false
+11061,11061,Ltt Jaynagar Express,express,LTT,Lokmanyatilak,JYG,Jaynagar,45,daily (assumed),false,SL 3A 2A CC,1.150,false,2024-09,true,false
+09452,09452,Bgp Gimb Special,express,BGP,Bhagalpur,GIMB,Gandhidham Bg,36,daily (assumed),false,SL 3A 2A CC,1.048,false,2024-09,true,false
+20497,20497,Fzr Humsafar,superfast,RMM,Rameswaram,FZR,Firozpur Cant,43,daily (assumed),false,SL 3A 2A CC,1.082,false,2024-09,true,false
+16331,16331,Trivandram Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,TVC,Thiruvananthapuram Central,42,daily (assumed),false,SL 3A 2A CC,1.058,false,2024-09,true,false
+12520,12520,Agtl Ltt Ac Express,express,AGTL,Agartala,LTT,Lokmanyatilak,38,daily (assumed),false,SL 3A 2A CC,1.114,false,2024-09,true,false
+19435,19435,Adi Asn Express,express,ADI,Ahmedabad,ASN,Asansol,30,daily (assumed),false,SL 3A 2A CC,1.089,false,2024-09,true,false
+20489,20489,Bme Mtj Sup Fast,superfast,BME,Barmer,MTJ,Mathura Junction,30,daily (assumed),false,SL 3A 2A CC,0.926,false,2024-09,true,false
+17057,17057,Devagiri Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,LPI,Lingampalli,30,daily (assumed),false,SL 3A 2A CC,0.916,false,2024-09,true,false
+16339,16339,Nagarcoil Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,NCJ,Nagercoil Junction,40,daily (assumed),false,SL 3A 2A CC,0.921,false,2024-09,true,false
+20808,20808,Hirakund Express,express,ASR,Amritsar,VSKP,Visakhapatnam,47,daily (assumed),false,SL 3A 2A CC,0.994,false,2024-09,true,false
+19616,19616,Kavi Guru Express,express,KYQ,Kamakhya,UDZ,Udaipur City,45,daily (assumed),false,SL 3A 2A CC,1.087,false,2024-09,true,false
+22312,22312,Ltt Godda Express,express,LTT,Lokmanyatilak,GODA,Godda,42,daily (assumed),false,SL 3A 2A CC,0.990,false,2024-09,true,false
+12322,12322,Kolkata Mail,superfast,CSMT,Chhatrapati Shivaji Maharaj Terminus,HWH,Howrah,47,daily (assumed),false,SL 3A 2A CC,1.019,false,2024-09,true,false
+12721,12721,Dakshin Express,express,HYB,Hyderabad,NZM,Hazrat Nizamuddin,43,daily (assumed),false,SL 3A 2A CC,1.087,false,2024-09,true,false
+22710,22710,Aadr Ned Sf Express,superfast,AADR,Amb  Andaura,NED,Nanded,26,daily (assumed),false,SL 3A 2A CC,1.077,true,2024-09,true,false
+18233,18233,Indb Bsp Express,express,INDB,Indore,BSP,Bilaspur,52,daily (assumed),false,SL 3A 2A CC,1.121,false,2024-09,true,false
+18238,18238,Chhatisgarh Express,express,ASR,Amritsar,BSP,Bilaspur,83,daily (assumed),false,SL 3A 2A CC,1.097,false,2024-09,true,false
+19045,19045,Tapti Ganga Express,express,ST,Surat,CPR,Chhapra,36,daily (assumed),false,SL 3A 2A CC,1.024,false,2024-09,true,false
+19712,19712,Bpl Jp Express,express,BPL,Bhopal Junction,JP,Jaipur Junction,36,daily (assumed),false,SL 3A 2A CC,0.877,false,2024-09,true,false
+22687,22687,Mys Bsb Express,express,MYS,Mysore,BSB,Varanasi,34,daily (assumed),false,SL 3A 2A CC,1.082,false,2024-09,true,false
+11078,11078,Jhelum Express,express,JAT,Jammutavi,PUNE,Pune Junction,64,daily (assumed),false,SL 3A 2A CC,1.038,false,2024-09,true,false
+01163,01163,Ltt-vlnk Special,express,LTT,Lokmanyatilak,VLNK,Vellankanni,30,daily (assumed),false,SL 3A 2A CC,1.058,false,2024-09,true,false
+14314,14314,Be Ltt Express,express,BE,Bareilly(nr),LTT,Lokmanyatilak,26,daily (assumed),false,SL 3A 2A CC,0.997,false,2024-09,true,false
+14866,14866,Marudhar Express,express,JU,Jodhpur,BCY,Varanasi City,37,daily (assumed),false,SL 3A 2A CC,0.957,false,2024-09,true,false
+12406,12406,Gondwana Express,express,NZM,Hazrat Nizamuddin,BSL,Bhusaval,29,daily (assumed),false,SL 3A 2A CC,1.043,false,2024-09,true,false
+12511,12511,Raptisagar Express,express,GKP,Gorakhpur,KCVL,Thiruvananthapuram North,60,daily (assumed),false,SL 3A 2A CC,0.950,false,2024-09,true,false
+12781,12781,Swarna Jayanthi,superfast,MYS,Mysore,NZM,Hazrat Nizamuddin,32,daily (assumed),false,SL 3A 2A CC,0.967,false,2024-09,true,false
+18519,18519,Vskp Ltt Express,express,VSKP,Visakhapatnam,LTT,Lokmanyatilak,24,daily (assumed),false,SL 3A 2A CC,0.977,false,2024-09,true,false
+11108,11108,Bundelkhand Express,express,BSBS,Banaras,GWL,Gwalior Junction,34,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+19306,19306,Kyq Dadn Express,express,KYQ,Kamakhya,DADN,Dr Ambedkar Nagar,37,daily (assumed),false,SL 3A 2A CC,1.116,false,2024-09,true,false
+02198,02198,Jbp Cbe Special,express,JBP,Jabalpur,CBE,Coimbatore,33,daily (assumed),false,SL 3A 2A CC,0.942,false,2024-09,true,false
+01435,01435,Sur Ltt Special,express,SUR,Solapur,LTT,Lokmanyatilak,18,daily (assumed),false,SL 3A 2A CC,0.941,false,2024-09,true,false
+14212,14212,Intercity Express,express,NDLS,New Delhi,AGC,Agra Cantt,18,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+12919,12919,Malwa Express,express,DADN,Dr Ambedkar Nagar,SVDK,Shri Mata Vaishno Devi Katra,49,daily (assumed),false,SL 3A 2A CC,1.018,false,2024-09,true,false
+20813,20813,Puri Ju S F,superfast,PURI,Puri,JU,Jodhpur,42,daily (assumed),false,SL 3A 2A CC,0.994,false,2024-09,true,false
+12486,12486,Sgnr Ned Express,express,SGNR,Shri Ganganagar,NED,Nanded,28,daily (assumed),false,SL 3A 2A CC,1.063,false,2024-09,true,false
+19343,19343,Panchvalley Express,express,INDB,Indore,SEY,Seoni,31,daily (assumed),false,SL 3A 2A CC,0.880,false,2024-09,true,false
+19410,19410,Gkp Adi Express,express,GKP,Gorakhpur,SBIB,Sabarmati Bg,29,daily (assumed),false,SL 3A 2A CC,0.850,false,2024-09,true,false
+12926,12926,Paschim Express,express,ASR,Amritsar,MMCT,Mumbai Central,40,daily (assumed),false,SL 3A 2A CC,1.028,false,2024-09,true,false
+12626,12626,Kerala Express,express,NDLS,New Delhi,TVC,Thiruvananthapuram Central,42,daily (assumed),false,SL 3A 2A CC,1.097,false,2024-09,true,false
+19567,19567,Vivek Express,express,TN,Tuticorin,OKHA,Okha,41,daily (assumed),false,SL 3A 2A CC,1.028,false,2024-09,true,false
+12137,12137,Punjab Mail,superfast,CSMT,Chhatrapati Shivaji Maharaj Terminus,FZR,Firozpur Cant,54,daily (assumed),false,SL 3A 2A CC,1.019,false,2024-09,true,false
+16381,16381,Kanyakumari Express,express,PUNE,Pune Junction,CAPE,Kanyakumari,54,daily (assumed),false,SL 3A 2A CC,1.150,false,2024-09,true,false
+16788,16788,Navyug Express,express,SVDK,Shri Mata Vaishno Devi Katra,TEN,Tirunelveli,62,daily (assumed),false,SL 3A 2A CC,1.102,false,2024-09,true,false
+19020,19020,Hw Bdts Express,express,HW,Haridwar,BDTS,Bandra Terminus,70,daily (assumed),false,SL 3A 2A CC,0.911,false,2024-09,true,false
+22673,22673,Bgkt Mq Sf Express,superfast,JU,Jodhpur,MQ,Mannargudi,42,daily (assumed),false,SL 3A 2A CC,1.114,false,2024-09,true,false
+12975,12975,Mys Jp Express,express,MYS,Mysore,JP,Jaipur Junction,41,daily (assumed),false,SL 3A 2A CC,1.072,false,2024-09,true,false
+19714,19714,Krnt Jp Express,express,KRNT,Kurnool City,JP,Jaipur Junction,36,daily (assumed),false,SL 3A 2A CC,0.926,false,2024-09,true,false
+09419,09419,Adi Tpj Special,express,ADI,Ahmedabad,TPJ,Tiruchchirappalli,32,daily (assumed),false,SL 3A 2A CC,0.951,false,2024-09,true,false
+18609,18609,Rnc Ltt Express,express,RNC,Ranchi,LTT,Lokmanyatilak,28,daily (assumed),false,SL 3A 2A CC,1.043,false,2024-09,true,false
+22157,22157,Csmt Ms Sf Mail,superfast,CSMT,Chhatrapati Shivaji Maharaj Terminus,MS,Chennai Egmore,34,daily (assumed),false,SL 3A 2A CC,0.920,false,2024-09,true,false
+22976,22976,Rmr Bdts Express,express,RMR,Ramnagar,BDTS,Bandra Terminus,30,daily (assumed),false,SL 3A 2A CC,1.004,true,2024-09,true,false
+22645,22645,Indb Kcvl Sf Express,superfast,INDB,Indore,KCVL,Thiruvananthapuram North,50,daily (assumed),false,SL 3A 2A CC,0.994,false,2024-09,true,false
+12625,12625,Kerala Sf Express,superfast,TVC,Thiruvananthapuram Central,NDLS,New Delhi,43,daily (assumed),false,SL 3A 2A CC,1.121,false,2024-09,true,false
+11019,11019,Konark Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,BBS,Bhubaneswar,42,daily (assumed),false,SL 3A 2A CC,0.936,false,2024-09,true,false
+11124,11124,Bju Gwl Mail,superfast,BJU,Barauni,GWL,Gwalior Junction,40,daily (assumed),false,SL 3A 2A CC,0.957,false,2024-09,true,false
+20498,20498,Rmm Humsafar Sf,superfast,FZR,Firozpur Cant,RMM,Rameswaram,43,daily (assumed),false,SL 3A 2A CC,1.077,false,2024-09,true,false
+20807,20807,Hirakud Express,express,VSKP,Visakhapatnam,ASR,Amritsar,46,daily (assumed),false,SL 3A 2A CC,1.111,false,2024-09,true,false
+17019,17019,Jp Hyb Express,express,HSR,Hisar,HYB,Hyderabad,44,daily (assumed),false,SL 3A 2A CC,1.024,false,2024-09,true,false
+15017,15017,Ltt Gkp Express,express,LTT,Lokmanyatilak,GKP,Gorakhpur,69,daily (assumed),false,SL 3A 2A CC,0.985,false,2024-09,true,false
+12512,12512,Raptisagar Express,express,KCVL,Thiruvananthapuram North,GKP,Gorakhpur,59,daily (assumed),false,SL 3A 2A CC,1.043,false,2024-09,true,false
+22311,22311,Goda Ltt Express,express,GODA,Godda,LTT,Lokmanyatilak,43,daily (assumed),false,SL 3A 2A CC,1.014,false,2024-09,true,false
+20814,20814,Ju Puri Sf Express,superfast,JU,Jodhpur,PURI,Puri,42,daily (assumed),false,SL 3A 2A CC,1.058,false,2024-09,true,false
+16332,16332,Tvc Csmt Express,express,TVC,Thiruvananthapuram Central,CSMT,Chhatrapati Shivaji Maharaj Terminus,41,daily (assumed),false,SL 3A 2A CC,1.048,false,2024-09,true,false
+12521,12521,Rapti Sagar Express,express,BJU,Barauni,ERS,Ernakulam,60,daily (assumed),false,SL 3A 2A CC,1.150,false,2024-09,true,false
+12615,12615,Grand Trunk Express,express,MS,Chennai Egmore,NDLS,New Delhi,40,daily (assumed),false,SL 3A 2A CC,1.004,false,2024-09,true,false
+14813,14813,Ju Bpl Express,express,JU,Jodhpur,BPL,Bhopal Junction,68,daily (assumed),false,SL 3A 2A CC,1.043,false,2024-09,true,false
+13202,13202,Ltt Patna Express,express,LTT,Lokmanyatilak,PNBE,Patna,58,daily (assumed),false,SL 3A 2A CC,0.887,false,2024-09,true,false
+11465,11465,Smnh Jbp Express,express,VRL,Veraval,JBP,Jabalpur,47,daily (assumed),false,SL 3A 2A CC,0.936,false,2024-09,true,false
+22538,22538,Kushinagar Express,express,LTT,Lokmanyatilak,GKP,Gorakhpur,44,daily (assumed),false,SL 3A 2A CC,0.980,false,2024-09,true,false
+22537,22537,Kushinagar Express,express,GKP,Gorakhpur,LTT,Lokmanyatilak,44,daily (assumed),false,SL 3A 2A CC,1.013,false,2024-09,true,false
+14854,14854,Marudhar Express,express,JU,Jodhpur,BCY,Varanasi City,40,daily (assumed),false,SL 3A 2A CC,1.048,false,2024-09,true,false
+11057,11057,Csmt Asr Express,express,CSMT,Chhatrapati Shivaji Maharaj Terminus,ASR,Amritsar,79,daily (assumed),false,SL 3A 2A CC,1.043,false,2024-09,true,false
+15647,15647,Ltt Ghy Express,express,LTT,Lokmanyatilak,GHY,Guwahati,52,daily (assumed),false,SL 3A 2A CC,0.999,false,2024-09,true,false
+12976,12976,Jp Mysore Express,express,JP,Jaipur Junction,MYS,Mysore,41,daily (assumed),false,SL 3A 2A CC,0.985,false,2024-09,true,false
+16317,16317,Himsagar Express,express,CAPE,Kanyakumari,SVDK,Shri Mata Vaishno Devi Katra,65,daily (assumed),false,SL 3A 2A CC,1.150,false,2024-09,true,false
+18234,18234,Narmada Express,express,BSP,Bilaspur,INDB,Indore,53,daily (assumed),false,SL 3A 2A CC,0.960,false,2024-09,true,false
+12925,12925,Paschim Express,express,MMCT,Mumbai Central,ASR,Amritsar,41,daily (assumed),false,SL 3A 2A CC,1.058,false,2024-09,true,false
+11072,11072,Kamayani Express,express,BUI,Ballia,LTT,Lokmanyatilak,47,daily (assumed),false,SL 3A 2A CC,0.992,false,2024-09,true,false

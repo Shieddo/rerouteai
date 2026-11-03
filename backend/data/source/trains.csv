@@ -1,0 +1,121 @@
+﻿train_id,train_number,train_name,train_type,source_station_code,source_station_name,destination_station_code,destination_station_name,stop_count,service_days,schedule_snapshot,timetable_is_reference_data,is_synthetic_record
+11058,11058,Asr Csmt Express,as_recorded_not_provided,ASR,Amritsar,CSMT,Chhatrapati Shivaji Maharaj Terminus,84,not_in_reference_dataset,2024-09,true,false
+11020,11020,Konark Express,as_recorded_not_provided,BBS,Bhubaneswar,CSMT,Chhatrapati Shivaji Maharaj Terminus,43,not_in_reference_dataset,2024-09,true,false
+05635,05635,Sgnr Ghy Special,as_recorded_not_provided,SGNR,Shri Ganganagar,GHY,Guwahati,48,not_in_reference_dataset,2024-09,true,false
+19019,19019,Bdts Hw Express,as_recorded_not_provided,BDTS,Bandra Terminus,HW,Haridwar,74,not_in_reference_dataset,2024-09,true,false
+18478,18478,Kalingautkal Express,as_recorded_not_provided,YNRK,Yog Nagari Rishikesh,PURI,Puri,76,not_in_reference_dataset,2024-09,true,false
+14814,14814,Bpl Ju Express,as_recorded_not_provided,BPL,Bhopal Junction,JU,Jodhpur,68,not_in_reference_dataset,2024-09,true,false
+16318,16318,Himsagar Express,as_recorded_not_provided,SVDK,Shri Mata Vaishno Devi Katra,CAPE,Kanyakumari,70,not_in_reference_dataset,2024-09,true,false
+15018,15018,Gkp Ltt Express,as_recorded_not_provided,GKP,Gorakhpur,LTT,Lokmanyatilak,70,not_in_reference_dataset,2024-09,true,false
+18237,18237,Krba-asr Express,as_recorded_not_provided,KRBA,Korba,ASR,Amritsar,90,not_in_reference_dataset,2024-09,true,false
+19166,19166,Sabarmati Express,as_recorded_not_provided,DBG,Darbhanga,ADI,Ahmedabad,64,not_in_reference_dataset,2024-09,true,false
+19014,19014,Kte Bsl Express,as_recorded_not_provided,KTE,Katni,BSL,Bhusaval,61,not_in_reference_dataset,2024-09,true,false
+15648,15648,Ghy Ltt Express,as_recorded_not_provided,GHY,Guwahati,LTT,Lokmanyatilak,53,not_in_reference_dataset,2024-09,true,false
+12617,12617,Mangladweep Express,as_recorded_not_provided,ERS,Ernakulam,NZM,Hazrat Nizamuddin,48,not_in_reference_dataset,2024-09,true,false
+16382,16382,Cape Pune Express,as_recorded_not_provided,CAPE,Kanyakumari,PUNE,Pune Junction,55,not_in_reference_dataset,2024-09,true,false
+17020,17020,Hyb Hsr Express,as_recorded_not_provided,HYB,Hyderabad,HSR,Hisar,45,not_in_reference_dataset,2024-09,true,false
+05045,05045,Lku Rjt Special,as_recorded_not_provided,LKU,Lalkua,RJT,Rajkot,38,not_in_reference_dataset,2024-09,true,false
+16587,16587,Bikaner Express,as_recorded_not_provided,YPR,Yasvantpur,BKN,Bikaner,38,not_in_reference_dataset,2024-09,true,false
+01883,01883,Bina Passenger,as_recorded_not_provided,BINA,Bina Junction,GWL,Gwalior Junction,32,not_in_reference_dataset,2024-09,true,false
+12177,12177,Chambal Express,as_recorded_not_provided,HWH,Howrah,MTJ,Mathura Junction,35,not_in_reference_dataset,2024-09,true,false
+11029,11029,Koyna Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,KOP,Kolhapur,29,not_in_reference_dataset,2024-09,true,false
+18235,18235,Passenger,as_recorded_not_provided,BPL,Bhopal Junction,BSP,Bilaspur,43,not_in_reference_dataset,2024-09,true,false
+11463,11463,Smnh Jbp Express,as_recorded_not_provided,VRL,Veraval,JBP,Jabalpur,51,not_in_reference_dataset,2024-09,true,false
+14623,14623,Patalkot Express,as_recorded_not_provided,SEY,Seoni,FZR,Firozpur Cant,43,not_in_reference_dataset,2024-09,true,false
+16094,16094,Ljn Mas Express,as_recorded_not_provided,LJN,Lucknow,MAS,Puratchi Thalaivar Dr Mgr Ctl,45,not_in_reference_dataset,2024-09,true,false
+16351,16351,Nagarcoil Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,NCJ,Nagercoil Junction,42,not_in_reference_dataset,2024-09,true,false
+11123,11123,Gwl Bju Express,as_recorded_not_provided,GWL,Gwalior Junction,BJU,Barauni,42,not_in_reference_dataset,2024-09,true,false
+11417,11417,Pune Sur Express,as_recorded_not_provided,PUNE,Pune Junction,SUR,Solapur,27,not_in_reference_dataset,2024-09,true,false
+19302,19302,Ypr Dadn Express,as_recorded_not_provided,YPR,Yasvantpur,DADN,Dr Ambedkar Nagar,34,not_in_reference_dataset,2024-09,true,false
+19565,19565,Okha Ddn Express,as_recorded_not_provided,OKHA,Okha,DDN,Dehradoon,35,not_in_reference_dataset,2024-09,true,false
+12807,12807,Samta Express,as_recorded_not_provided,VSKP,Visakhapatnam,NZM,Hazrat Nizamuddin,38,not_in_reference_dataset,2024-09,true,false
+12403,12403,Pryj Bkn Sf Express,as_recorded_not_provided,PRYJ,Prayagraj,LGH,Lalgarh,29,not_in_reference_dataset,2024-09,true,false
+11902,11902,Agc Vglj Express,as_recorded_not_provided,AGC,Agra Cantt,VGLB,Veerangana Lakshmibai Jhansi,24,not_in_reference_dataset,2024-09,true,false
+15945,15945,Ltt Dibrugarh Express,as_recorded_not_provided,LTT,Lokmanyatilak,DBRG,Dibrugarh,53,not_in_reference_dataset,2024-09,true,false
+13201,13201,Pnbe Ltt Express,as_recorded_not_provided,PNBE,Patna,LTT,Lokmanyatilak,61,not_in_reference_dataset,2024-09,true,false
+14864,14864,Marudhar Express,as_recorded_not_provided,JU,Jodhpur,BCY,Varanasi City,36,not_in_reference_dataset,2024-09,true,false
+12780,12780,Goa Express,as_recorded_not_provided,NZM,Hazrat Nizamuddin,VSG,Vasco Da Gama,32,not_in_reference_dataset,2024-09,true,false
+13026,13026,Bpl Hwh Express,as_recorded_not_provided,BPL,Bhopal Junction,HWH,Howrah,27,not_in_reference_dataset,2024-09,true,false
+11301,11301,Udyan Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,SBC,Ksr Bengaluru,33,not_in_reference_dataset,2024-09,true,false
+12755,12755,Coa Bvc Sf Express,as_recorded_not_provided,COA,Kakinada Port,BVC,Bhavnagar Terminus,32,not_in_reference_dataset,2024-09,true,false
+11017,11017,Ltt Karaikal Express,as_recorded_not_provided,LTT,Lokmanyatilak,KIK,Karaikal,32,not_in_reference_dataset,2024-09,true,false
+15067,15067,Gkp Bdts Express,as_recorded_not_provided,GKP,Gorakhpur,BDTS,Bandra Terminus,30,not_in_reference_dataset,2024-09,true,false
+11061,11061,Ltt Jaynagar Express,as_recorded_not_provided,LTT,Lokmanyatilak,JYG,Jaynagar,45,not_in_reference_dataset,2024-09,true,false
+09452,09452,Bgp Gimb Special,as_recorded_not_provided,BGP,Bhagalpur,GIMB,Gandhidham Bg,36,not_in_reference_dataset,2024-09,true,false
+20497,20497,Fzr Humsafar,as_recorded_not_provided,RMM,Rameswaram,FZR,Firozpur Cant,43,not_in_reference_dataset,2024-09,true,false
+16331,16331,Trivandram Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,TVC,Thiruvananthapuram Central,42,not_in_reference_dataset,2024-09,true,false
+12520,12520,Agtl Ltt Ac Express,as_recorded_not_provided,AGTL,Agartala,LTT,Lokmanyatilak,38,not_in_reference_dataset,2024-09,true,false
+19435,19435,Adi Asn Express,as_recorded_not_provided,ADI,Ahmedabad,ASN,Asansol,30,not_in_reference_dataset,2024-09,true,false
+20489,20489,Bme Mtj Sup Fast,as_recorded_not_provided,BME,Barmer,MTJ,Mathura Junction,30,not_in_reference_dataset,2024-09,true,false
+17057,17057,Devagiri Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,LPI,Lingampalli,30,not_in_reference_dataset,2024-09,true,false
+16339,16339,Nagarcoil Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,NCJ,Nagercoil Junction,40,not_in_reference_dataset,2024-09,true,false
+20808,20808,Hirakund Express,as_recorded_not_provided,ASR,Amritsar,VSKP,Visakhapatnam,47,not_in_reference_dataset,2024-09,true,false
+19616,19616,Kavi Guru Express,as_recorded_not_provided,KYQ,Kamakhya,UDZ,Udaipur City,45,not_in_reference_dataset,2024-09,true,false
+22312,22312,Ltt Godda Express,as_recorded_not_provided,LTT,Lokmanyatilak,GODA,Godda,42,not_in_reference_dataset,2024-09,true,false
+12322,12322,Kolkata Mail,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,HWH,Howrah,47,not_in_reference_dataset,2024-09,true,false
+12721,12721,Dakshin Express,as_recorded_not_provided,HYB,Hyderabad,NZM,Hazrat Nizamuddin,43,not_in_reference_dataset,2024-09,true,false
+22710,22710,Aadr Ned Sf Express,as_recorded_not_provided,AADR,Amb  Andaura,NED,Nanded,26,not_in_reference_dataset,2024-09,true,false
+18233,18233,Indb Bsp Express,as_recorded_not_provided,INDB,Indore,BSP,Bilaspur,52,not_in_reference_dataset,2024-09,true,false
+18238,18238,Chhatisgarh Express,as_recorded_not_provided,ASR,Amritsar,BSP,Bilaspur,83,not_in_reference_dataset,2024-09,true,false
+19045,19045,Tapti Ganga Express,as_recorded_not_provided,ST,Surat,CPR,Chhapra,36,not_in_reference_dataset,2024-09,true,false
+19712,19712,Bpl Jp Express,as_recorded_not_provided,BPL,Bhopal Junction,JP,Jaipur Junction,36,not_in_reference_dataset,2024-09,true,false
+22687,22687,Mys Bsb Express,as_recorded_not_provided,MYS,Mysore,BSB,Varanasi,34,not_in_reference_dataset,2024-09,true,false
+11078,11078,Jhelum Express,as_recorded_not_provided,JAT,Jammutavi,PUNE,Pune Junction,64,not_in_reference_dataset,2024-09,true,false
+01163,01163,Ltt-vlnk Special,as_recorded_not_provided,LTT,Lokmanyatilak,VLNK,Vellankanni,30,not_in_reference_dataset,2024-09,true,false
+14314,14314,Be Ltt Express,as_recorded_not_provided,BE,Bareilly(nr),LTT,Lokmanyatilak,26,not_in_reference_dataset,2024-09,true,false
+14866,14866,Marudhar Express,as_recorded_not_provided,JU,Jodhpur,BCY,Varanasi City,37,not_in_reference_dataset,2024-09,true,false
+12406,12406,Gondwana Express,as_recorded_not_provided,NZM,Hazrat Nizamuddin,BSL,Bhusaval,29,not_in_reference_dataset,2024-09,true,false
+12511,12511,Raptisagar Express,as_recorded_not_provided,GKP,Gorakhpur,KCVL,Thiruvananthapuram North,60,not_in_reference_dataset,2024-09,true,false
+12781,12781,Swarna Jayanthi,as_recorded_not_provided,MYS,Mysore,NZM,Hazrat Nizamuddin,32,not_in_reference_dataset,2024-09,true,false
+18519,18519,Vskp Ltt Express,as_recorded_not_provided,VSKP,Visakhapatnam,LTT,Lokmanyatilak,24,not_in_reference_dataset,2024-09,true,false
+11108,11108,Bundelkhand Express,as_recorded_not_provided,BSBS,Banaras,GWL,Gwalior Junction,34,not_in_reference_dataset,2024-09,true,false
+19306,19306,Kyq Dadn Express,as_recorded_not_provided,KYQ,Kamakhya,DADN,Dr Ambedkar Nagar,37,not_in_reference_dataset,2024-09,true,false
+02198,02198,Jbp Cbe Special,as_recorded_not_provided,JBP,Jabalpur,CBE,Coimbatore,33,not_in_reference_dataset,2024-09,true,false
+01435,01435,Sur Ltt Special,as_recorded_not_provided,SUR,Solapur,LTT,Lokmanyatilak,18,not_in_reference_dataset,2024-09,true,false
+14212,14212,Intercity Express,as_recorded_not_provided,NDLS,New Delhi,AGC,Agra Cantt,18,not_in_reference_dataset,2024-09,true,false
+12919,12919,Malwa Express,as_recorded_not_provided,DADN,Dr Ambedkar Nagar,SVDK,Shri Mata Vaishno Devi Katra,49,not_in_reference_dataset,2024-09,true,false
+20813,20813,Puri Ju S F,as_recorded_not_provided,PURI,Puri,JU,Jodhpur,42,not_in_reference_dataset,2024-09,true,false
+12486,12486,Sgnr Ned Express,as_recorded_not_provided,SGNR,Shri Ganganagar,NED,Nanded,28,not_in_reference_dataset,2024-09,true,false
+19343,19343,Panchvalley Express,as_recorded_not_provided,INDB,Indore,SEY,Seoni,31,not_in_reference_dataset,2024-09,true,false
+19410,19410,Gkp Adi Express,as_recorded_not_provided,GKP,Gorakhpur,SBIB,Sabarmati Bg,29,not_in_reference_dataset,2024-09,true,false
+12926,12926,Paschim Express,as_recorded_not_provided,ASR,Amritsar,MMCT,Mumbai Central,40,not_in_reference_dataset,2024-09,true,false
+12626,12626,Kerala Express,as_recorded_not_provided,NDLS,New Delhi,TVC,Thiruvananthapuram Central,42,not_in_reference_dataset,2024-09,true,false
+19567,19567,Vivek Express,as_recorded_not_provided,TN,Tuticorin,OKHA,Okha,41,not_in_reference_dataset,2024-09,true,false
+12137,12137,Punjab Mail,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,FZR,Firozpur Cant,54,not_in_reference_dataset,2024-09,true,false
+16381,16381,Kanyakumari Express,as_recorded_not_provided,PUNE,Pune Junction,CAPE,Kanyakumari,54,not_in_reference_dataset,2024-09,true,false
+16788,16788,Navyug Express,as_recorded_not_provided,SVDK,Shri Mata Vaishno Devi Katra,TEN,Tirunelveli,62,not_in_reference_dataset,2024-09,true,false
+19020,19020,Hw Bdts Express,as_recorded_not_provided,HW,Haridwar,BDTS,Bandra Terminus,70,not_in_reference_dataset,2024-09,true,false
+22673,22673,Bgkt Mq Sf Express,as_recorded_not_provided,JU,Jodhpur,MQ,Mannargudi,42,not_in_reference_dataset,2024-09,true,false
+12975,12975,Mys Jp Express,as_recorded_not_provided,MYS,Mysore,JP,Jaipur Junction,41,not_in_reference_dataset,2024-09,true,false
+19714,19714,Krnt Jp Express,as_recorded_not_provided,KRNT,Kurnool City,JP,Jaipur Junction,36,not_in_reference_dataset,2024-09,true,false
+09419,09419,Adi Tpj Special,as_recorded_not_provided,ADI,Ahmedabad,TPJ,Tiruchchirappalli,32,not_in_reference_dataset,2024-09,true,false
+18609,18609,Rnc Ltt Express,as_recorded_not_provided,RNC,Ranchi,LTT,Lokmanyatilak,28,not_in_reference_dataset,2024-09,true,false
+22157,22157,Csmt Ms Sf Mail,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,MS,Chennai Egmore,34,not_in_reference_dataset,2024-09,true,false
+22976,22976,Rmr Bdts Express,as_recorded_not_provided,RMR,Ramnagar,BDTS,Bandra Terminus,30,not_in_reference_dataset,2024-09,true,false
+22645,22645,Indb Kcvl Sf Express,as_recorded_not_provided,INDB,Indore,KCVL,Thiruvananthapuram North,50,not_in_reference_dataset,2024-09,true,false
+12625,12625,Kerala Sf Express,as_recorded_not_provided,TVC,Thiruvananthapuram Central,NDLS,New Delhi,43,not_in_reference_dataset,2024-09,true,false
+11019,11019,Konark Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,BBS,Bhubaneswar,42,not_in_reference_dataset,2024-09,true,false
+11124,11124,Bju Gwl Mail,as_recorded_not_provided,BJU,Barauni,GWL,Gwalior Junction,40,not_in_reference_dataset,2024-09,true,false
+20498,20498,Rmm Humsafar Sf,as_recorded_not_provided,FZR,Firozpur Cant,RMM,Rameswaram,43,not_in_reference_dataset,2024-09,true,false
+20807,20807,Hirakud Express,as_recorded_not_provided,VSKP,Visakhapatnam,ASR,Amritsar,46,not_in_reference_dataset,2024-09,true,false
+17019,17019,Jp Hyb Express,as_recorded_not_provided,HSR,Hisar,HYB,Hyderabad,44,not_in_reference_dataset,2024-09,true,false
+15017,15017,Ltt Gkp Express,as_recorded_not_provided,LTT,Lokmanyatilak,GKP,Gorakhpur,69,not_in_reference_dataset,2024-09,true,false
+12512,12512,Raptisagar Express,as_recorded_not_provided,KCVL,Thiruvananthapuram North,GKP,Gorakhpur,59,not_in_reference_dataset,2024-09,true,false
+22311,22311,Goda  Ltt  Express,as_recorded_not_provided,GODA,Godda,LTT,Lokmanyatilak,43,not_in_reference_dataset,2024-09,true,false
+20814,20814,Ju Puri Sf Express,as_recorded_not_provided,JU,Jodhpur,PURI,Puri,42,not_in_reference_dataset,2024-09,true,false
+16332,16332,Tvc Csmt Express,as_recorded_not_provided,TVC,Thiruvananthapuram Central,CSMT,Chhatrapati Shivaji Maharaj Terminus,41,not_in_reference_dataset,2024-09,true,false
+12521,12521,Rapti Sagar Express,as_recorded_not_provided,BJU,Barauni,ERS,Ernakulam,60,not_in_reference_dataset,2024-09,true,false
+12615,12615,Grand Trunk Express,as_recorded_not_provided,MS,Chennai Egmore,NDLS,New Delhi,40,not_in_reference_dataset,2024-09,true,false
+14813,14813,Ju Bpl Express,as_recorded_not_provided,JU,Jodhpur,BPL,Bhopal Junction,68,not_in_reference_dataset,2024-09,true,false
+13202,13202,Ltt Patna Express,as_recorded_not_provided,LTT,Lokmanyatilak,PNBE,Patna,58,not_in_reference_dataset,2024-09,true,false
+11465,11465,Smnh Jbp Express,as_recorded_not_provided,VRL,Veraval,JBP,Jabalpur,47,not_in_reference_dataset,2024-09,true,false
+22538,22538,Kushinagar Express,as_recorded_not_provided,LTT,Lokmanyatilak,GKP,Gorakhpur,44,not_in_reference_dataset,2024-09,true,false
+22537,22537,Kushinagar Express,as_recorded_not_provided,GKP,Gorakhpur,LTT,Lokmanyatilak,44,not_in_reference_dataset,2024-09,true,false
+14854,14854,Marudhar Express,as_recorded_not_provided,JU,Jodhpur,BCY,Varanasi City,40,not_in_reference_dataset,2024-09,true,false
+11057,11057,Csmt Asr Express,as_recorded_not_provided,CSMT,Chhatrapati Shivaji Maharaj Terminus,ASR,Amritsar,79,not_in_reference_dataset,2024-09,true,false
+15647,15647,Ltt Ghy Express,as_recorded_not_provided,LTT,Lokmanyatilak,GHY,Guwahati,52,not_in_reference_dataset,2024-09,true,false
+12976,12976,Jp Mysore Express,as_recorded_not_provided,JP,Jaipur Junction,MYS,Mysore,41,not_in_reference_dataset,2024-09,true,false
+16317,16317,Himsagar Express,as_recorded_not_provided,CAPE,Kanyakumari,SVDK,Shri Mata Vaishno Devi Katra,65,not_in_reference_dataset,2024-09,true,false
+18234,18234,Narmada Express,as_recorded_not_provided,BSP,Bilaspur,INDB,Indore,53,not_in_reference_dataset,2024-09,true,false
+12925,12925,Paschim Express,as_recorded_not_provided,MMCT,Mumbai Central,ASR,Amritsar,41,not_in_reference_dataset,2024-09,true,false
+11072,11072,Kamayani Express,as_recorded_not_provided,BUI,Ballia,LTT,Lokmanyatilak,47,not_in_reference_dataset,2024-09,true,false
