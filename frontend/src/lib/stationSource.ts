@@ -1,4 +1,3 @@
-import { mockStations } from "./mockStations";
 import { DEFAULT_LIMIT, searchStations } from "./searchStations";
 import type { Station } from "./types";
 
@@ -13,8 +12,6 @@ export type StationSource = {
 export function createStaticStationSource(stations: readonly Station[], limit = DEFAULT_LIMIT): StationSource {
   return { search: async (query) => searchStations(stations, query, limit) };
 }
-
-export const mockStationSource: StationSource = createStaticStationSource(mockStations);
 
 /** Stations from the backend's railway dataset (public endpoint, so it works before sign-in). */
 export const apiStationSource: StationSource = {
