@@ -1,10 +1,10 @@
 import { Router, type RequestHandler, type Response } from "express";
 import { requireAuth } from "../auth/middleware.ts";
-import { mockRailData } from "../rail/mockTrains.ts";
+import { datasetRailData, loadTimetable } from "../dataset/timetable.ts";
+import { isDatasetStation, searchDatasetStations } from "../dataset/stations.ts";
 import type { RailData } from "../rail/repository.ts";
 import { findAlternativeJourneys, RouteSearchError, type SearchOptions } from "../rail/routeSearch.ts";
-import { RailRadarError, trainsBetween, type TrainsBetweenParams } from "./railradar.ts";
-import { isStation, searchStations } from "./stations.ts";
+import { RailRadarError, type TrainsBetweenParams } from "./railradar.ts";
 import { rateLimit } from "../server/security.ts";
 
 const router = Router();
@@ -13,9 +13,9 @@ const STATION_CODE = /^[A-Z0-9]{1,5}$/;
 const FILTER = /^[A-Za-z0-9 _-]{1,32}$/;
 const MAX_QUERY_LENGTH = 100;
 
-// Per signed-in user. /trains/search spends RailRadar quota, so it gets the tightest budget.
+// Per signed-in user (station search is per IP: it is public so the form works before sign-in).
 const perUser = (max: number) => rateLimit({ windowMs: 60_000, max, key: (req) => `user:${req.user?.id}` });
-const stationsLimit = perUser(120);
+const stationsLimit = rateLimit({ windowMs: 60_000, max: 120 });
 const searchLimit = perUser(30);
 const alternativesLimit = perUser(60);
 const DATE = /^\d{4}-\d{2}-\d{2}$/;
@@ -81,26 +81,49 @@ function sendError(res: Response, err: unknown) {
   }
 }
 
-/** GET /stations/search?q=new+del[&limit=8] -> [{ code, name }] */
-router.get("/stations/search", requireAuth, stationsLimit, async (req, res) => {
+/** GET /stations/search?q=new+del[&limit=8] -> [{ code, name, city, trains }] from the railway dataset */
+router.get("/stations/search", stationsLimit, async (req, res) => {
   try {
     const q = text(req.query["q"]) ?? "";
     if (q.length > MAX_QUERY_LENGTH) throw new ValidationError("q is too long");
     const limit = Math.min(Math.max(Number(req.query["limit"]) || 8, 1), 20);
-    res.json(await searchStations(q, limit));
+    res.json(await searchDatasetStations(q, limit));
   } catch (err) {
     sendError(res, err);
   }
 });
 
-/** GET /trains/search?from=NDLS&to=AGC&date=2026-10-25[&type=&category=&byCity=&live=] */
+/**
+ * GET /trains/search?from=NDLS&to=AGC[&date=2026-10-25] -> direct trains in the dataset timetable,
+ * in the same response shape the RailRadar proxy used.
+ */
 router.get("/trains/search", requireAuth, searchLimit, async (req, res) => {
   try {
     const params = parseSearch(req.query);
     for (const code of [params.from, params.to]) {
-      if (!(await isStation(code))) throw new ValidationError(`Unknown station: ${code}`);
+      if (!(await isDatasetStation(code))) throw new ValidationError(`Unknown station: ${code}`);
     }
-    res.json(await trainsBetween(params));
+    const tt = await loadTimetable();
+    const station = (code: string) => ({ code, name: tt.stationsByCode.get(code)!.name });
+    const trains = tt.trains
+      .map((train) => {
+        const i = train.stops.findIndex((s) => s.stationId === params.from);
+        const j = train.stops.findIndex((s) => s.stationId === params.to);
+        if (i < 0 || j <= i) return null;
+        const dep = train.stops[i]!.departure!;
+        const arr = train.stops[j]!.arrival!;
+        const minutes = (t: { dayOffset: number; time: string }) => t.dayOffset * 1440 + Number(t.time.slice(0, 2)) * 60 + Number(t.time.slice(3));
+        return {
+          train: { number: train.number, name: train.name, type: train.type, runDays: train.runDays },
+          from: { ...station(params.from), departure: dep.time, day: dep.dayOffset + 1 },
+          to: { ...station(params.to), arrival: arr.time, day: arr.dayOffset + 1 },
+          duration: minutes(arr) - minutes(dep),
+          distanceKm: Math.round(train.stops[j]!.distanceKm - train.stops[i]!.distanceKm),
+        };
+      })
+      .filter((t) => t !== null)
+      .sort((a, b) => a.from.departure.localeCompare(b.from.departure));
+    res.json({ from: station(params.from), to: station(params.to), trains });
   } catch (err) {
     sendError(res, err);
   }
@@ -110,8 +133,8 @@ router.get("/trains/search", requireAuth, searchLimit, async (req, res) => {
  * GET /trains/alternatives?from=SBC&to=HYB&date=2026-10-25&time=18:30[&maxTransfers=2]
  * -> { journeys, warnings }: schedule-feasible multi-train journeys, best first.
  *
- * Separate from /trains/search, which proxies RailRadar's direct-train lookup and has its own
- * response shape. Stations are the rail repository's ids (station codes), not RailRadar's directory.
+ * Separate from /trains/search, which lists direct trains and has its own response shape.
+ * Stations are the dataset's station codes.
  */
 export function alternativesHandler(rail: RailData): RequestHandler {
   return async (req, res) => {
@@ -138,6 +161,6 @@ export function alternativesHandler(rail: RailData): RequestHandler {
   };
 }
 
-router.get("/trains/alternatives", requireAuth, alternativesLimit, alternativesHandler(mockRailData));
+router.get("/trains/alternatives", requireAuth, alternativesLimit, alternativesHandler(datasetRailData));
 
 export default router;

@@ -128,11 +128,11 @@ describe("search input validation", () => {
     expect(fetchCalls).toHaveLength(0);
   });
 
-  test("RailRadar failures reach the client only as fixed text", async () => {
+  test("station search is served from the dataset, with no RailRadar key and no upstream calls", async () => {
     delete process.env["RAILRADAR_API_KEY"];
-    const r = await get("/stations/search?q=delhi");
-    expect(r.status).toBe(503);
-    expect(r.body).not.toContain("RAILRADAR");
-    expect(JSON.parse(r.body)).toEqual({ error: "Station search is temporarily unavailable" });
+    const r = await get("/stations/search?q=new delhi");
+    expect(r.status).toBe(200);
+    expect(JSON.parse(r.body)[0]).toMatchObject({ code: "NDLS", name: "New Delhi" });
+    expect(fetchCalls).toHaveLength(0);
   });
 });
