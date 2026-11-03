@@ -35,6 +35,7 @@ import {
 } from "../src/dataset/fares.ts";
 import { getSeatMap, isPeakSeason, isWeekend, segmentAvailability } from "../src/dataset/inventory.ts";
 import { buildTimetable, inferTrainType } from "../src/dataset/timetable.ts";
+import { mockStations } from "../src/rail/mockStations.ts";
 import { addDays, weekdayOf } from "../src/rail/time.ts";
 
 const SRC = (process.argv[2] ?? "data/source").replace(/\/?$/, "/");
@@ -64,8 +65,13 @@ await mkdir(OUT, { recursive: true });
 console.log(`Aligning ${SRC} -> ${OUT}`);
 
 // ---- stations -----------------------------------------------------------------------------
+// City: from the curated list of major stations (so "Mumbai" finds CSMT, LTT, BDTS...), else the
+// station name without a trailing Junction/Cantt/Terminus-style suffix.
+const knownCity = new Map(mockStations.map((s) => [s.code!, s.city]));
+const SUFFIX = /\s+(junction|jn\.?|cantt\.?|cantonment|terminus|terminal|central|city|road|halt)$/i;
+const cityOf = (code: string, name: string) => knownCity.get(code) ?? (name.replace(SUFFIX, "").trim() || name);
 const stations = raw.stations
-  .map((s): CsvRow => ({ ...s, station_name: s["station_name"]!.trim(), city: s["station_name"]!.trim() }))
+  .map((s): CsvRow => ({ ...s, station_name: s["station_name"]!.trim(), city: cityOf(s["station_code"]!, s["station_name"]!.trim()) }))
   .sort((a, b) => a["station_code"]!.localeCompare(b["station_code"]!));
 await write("stations.csv", ["station_code", "station_name", "city", "state", "zone", "latitude", "longitude", "station_name_source", "is_real_station"], stations);
 
