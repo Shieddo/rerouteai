@@ -1,0 +1,1392 @@
+﻿station_code,station_name,state,zone,latitude,longitude,station_name_source,is_real_station
+ASR,Amritsar,,NR,,,Amritsar,true
+JNL,Jandiala,,NR,,,Jandiala,true
+BEAS,Beas,,NR,,,Beas,true
+KRE,Kartarpur,,NR,,,Kartarpur,true
+JUC,Jalandhar City,,NR,,,Jalandhar City,true
+JRC,Jalandhar Cant,,NR,,,Jalandhar Cant,true
+PGW,Phagwara,,NR,,,Phagwara,true
+PHR,Phillaur,,NR,,,Phillaur,true
+LDH,Ludhiana,,NR,,,Ludhiana,true
+AHH,Ahmadgarh,,NR,,,Ahmadgarh,true
+MET,Malerkotla,,NR,,,Malerkotla,true
+DUI,Dhuri,,NR,,,Dhuri,true
+NBA,Nabha,,NR,,,Nabha,true
+PTA,Patiala,,NR,,,Patiala,true
+RPJ,Rajpura,,NR,,,Rajpura,true
+UBC,Ambala City,,NR,,,Ambala City,true
+UMB,Ambala Cant,,NR,,,Ambala Cant,true
+SHDM,Shahbad Marknda,,NR,,,Shahbad Marknda,true
+KKDE,Kurukshetra,,NR,,,Kurukshetra,true
+NLKR,Nilokheri,,NR,,,Nilokheri,true
+TRR,Taraori,,NR,,,Taraori,true
+KUN,Karnal,,NR,,,Karnal,true
+GRA,Gharaunda,,NR,,,Gharaunda,true
+PNP,Panipat,,NR,,,Panipat,true
+SMK,Samalkha,,NR,,,Samalkha,true
+GNU,Ganaur,,NR,,,Ganaur,true
+SNP,Sonipat,,NR,,,Sonipat,true
+RDDE,Rathdhana,,NR,,,Rathdhana,true
+NUR,Narela,,NR,,,Narela,true
+ANDI,Adarsh Nagar Delhi,,NR,,,Adarsh Nagar Delhi,true
+SZM,Subzi Mandi,,NR,,,Subzi Mandi,true
+NDLS,New Delhi,Delhi,NR,28.6429,77.2194,New Delhi,true
+NZM,Hazrat Nizamuddin,,NR,,,Hazrat Nizamuddin,true
+FDB,Faridabad,,NR,,,Faridabad,true
+BVH,Ballabgarh,,NR,,,Ballabgarh,true
+PWL,Palwal,,NR,,,Palwal,true
+KSV,Kosi Kalan,,NCR,,,Kosi Kalan,true
+MTJ,Mathura Junction,Uttar Pradesh,NCR,27.4924,77.6737,Mathura,true
+AGC,Agra Cantt,Uttar Pradesh,NCR,27.1572,78.0117,Agra Cantt,true
+DHO,Dholpur Junction,Rajasthan,NCR,26.702,77.896,Dhaulpur,true
+MRA,Morena,Madhya Pradesh,NCR,26.498,77.995,Morena,true
+GWL,Gwalior Junction,Madhya Pradesh,NCR,26.215,78.176,Gwalior,true
+DBA,Dabra,,NCR,,,Dabra,true
+DAA,Datia,,NCR,,,Datia,true
+VGLB,Veerangana Lakshmibai Jhansi,Uttar Pradesh,,25.448,78.569,Veerangana Lakshmibai Jhansi,true
+BAB,Babina,,NCR,,,Babina,true
+BZY,Basai,,NCR,,,Basai,true
+TBT,Talbahat,,NCR,,,Talbahat,true
+LAR,Lalitpur Junction,Uttar Pradesh,NCR,24.69,78.413,Lalitpur,true
+DUA,Dhaura,,NCR,,,Dhaura,true
+BINA,Bina Junction,Madhya Pradesh,WCR,24.177,78.196,Bina,true
+MABA,Mandi Bamora,,WCR,,,Mandi Bamora,true
+BAQ,Ganj Basoda,,WCR,,,Ganj Basoda,true
+GLG,Gulabhganj,,WCR,,,Gulabhganj,true
+BHS,Vidisha,,WCR,,,Vidisha,true
+BPL,Bhopal Junction,Madhya Pradesh,WCR,23.269,77.413,Bhopal,true
+RKMP,Rani Kamalapati,,WCR,,,Rani Kamalapati,true
+MDDP,Mandi Dip,,WCR,,,Mandi Dip,true
+ODG,Obaidulla Ganj,,WCR,,,Obaidulla Ganj,true
+BNI,Budni,,WCR,,,Budni,true
+NDPM,Narmadapuram,,WCR,,,Narmadapuram,true
+ET,Itarsi Junction,Madhya Pradesh,WCR,22.612,77.762,Itarsi,true
+BPF,Banapura,,WCR,,,Banapura,true
+TBN,Timarni,,WCR,,,Timarni,true
+HD,Harda,,WCR,,,Harda,true
+KKN,Khirkiya,,WCR,,,Khirkiya,true
+CAER,Chhanera,,WCR,,,Chhanera,true
+TLV,Talvadya,,WCR,,,Talvadya,true
+KNW,Khandwa Junction,Madhya Pradesh,CR,21.824,76.352,Khandwa Junction,true
+NPNR,Nepanagar,,CR,,,Nepanagar,true
+BAU,Burhanpur,,CR,,,Burhanpur,true
+RV,Raver,,CR,,,Raver,true
+SAV,Savda,,CR,,,Savda,true
+BSL,Bhusaval,,CR,,,Bhusaval,true
+JL,Jalgaon,,CR,,,Jalgaon,true
+PC,Pachora,,CR,,,Pachora,true
+CSN,Chalisgaon,,CR,,,Chalisgaon,true
+MMR,Manmad,,CR,,,Manmad,true
+NK,Nasik Road,,CR,,,Nasik Road,true
+DVL,Devlali,,CR,,,Devlali,true
+KYN,Kalyan,,CR,,,Kalyan,true
+TNA,Thane,,CR,,,Thane,true
+DR,Dadar,,CR,,,Dadar,true
+CSMT,Chhatrapati Shivaji Maharaj Terminus,Maharashtra,CR,18.9402,72.8356,C Shivaji Mah T,true
+BBS,Bhubaneswar,,ECOR,,,Bhubaneswar,true
+KUR,Khurda Road,,ECOR,,,Khurda Road,true
+BALU,Balugan,,ECOR,,,Balugan,true
+CAP,Chatrapur,,ECOR,,,Chatrapur,true
+BAM,Brahmapur,,ECOR,,,Brahmapur,true
+IPM,Ichchpuram,,ECOR,,,Ichchpuram,true
+SPT,Sompeta,,ECOR,,,Sompeta,true
+PSA,Palasa,,ECOR,,,Palasa,true
+CHE,Srikakulam Road,,ECOR,,,Srikakulam Road,true
+VZM,Vizianagram,,ECOR,,,Vizianagram,true
+VSKP,Visakhapatnam,,ECOR,,,Visakhapatnam,true
+AKP,Anakapalle,,SCR,,,Anakapalle,true
+TUNI,Tuni,,SCR,,,Tuni,true
+PAP,Pithapuram,,SCR,,,Pithapuram,true
+SLO,Samalkot,,SCR,,,Samalkot,true
+RJY,Rajamundry,,SCR,,,Rajamundry,true
+NDD,Nidadavolu,,SCR,,,Nidadavolu,true
+TDD,Tadepalligudem,,SCR,,,Tadepalligudem,true
+EE,Eluru,,SCR,,,Eluru,true
+BZA,Vijayawada,,SCR,,,Vijayawada,true
+MDR,Madhira,,SCR,,,Madhira,true
+KMT,Khammam,,SCR,,,Khammam,true
+MABD,Mahbubabad,,SCR,,,Mahbubabad,true
+WL,Warangal,,SCR,,,Warangal,true
+KZJ,Kazipet,,SCR,,,Kazipet,true
+SC,Secunderabad Junction,Telangana,SCR,17.4344,78.5013,Secunderabad,true
+BMT,Begampet,,SCR,,,Begampet,true
+LPI,Lingampalli,,SCR,,,Lingampalli,true
+TDU,Tandur,,SCR,,,Tandur,true
+SEM,Seram,,SCR,,,Seram,true
+WADI,Wadi,,CR,,,Wadi,true
+SDB,Shahabad,,CR,,,Shahabad,true
+KLBG,Kalaburagi,,CR,,,Kalaburagi,true
+SUR,Solapur,Maharashtra,CR,17.6599,75.9064,Solapur,true
+JEUR,Jeur,,CR,,,Jeur,true
+DD,Daund,,CR,,,Daund,true
+PUNE,Pune Junction,Maharashtra,CR,18.5289,73.8744,Pune,true
+LNL,Lonavala,,CR,,,Lonavala,true
+KJT,Karjat,,CR,,,Karjat,true
+SGNR,Shri Ganganagar,,NWR,,,Shri Ganganagar,true
+SDS,Sadulshahr,,NWR,,,Sadulshahr,true
+HMH,Hanumangarh,,NWR,,,Hanumangarh,true
+ENB,Ellenabad,,NWR,,,Ellenabad,true
+NHR,Nohar,,NWR,,,Nohar,true
+GAMI,Gogameri,,NWR,,,Gogameri,true
+TSD,Tahsil Bhadra,,NWR,,,Tahsil Bhadra,true
+SDLP,Sadulpur,,NWR,,,Sadulpur,true
+CUR,Churu,,NWR,,,Churu,true
+SIKR,Sikar,,NWR,,,Sikar,true
+RGS,Ringas,,NWR,,,Ringas,true
+JP,Jaipur Junction,Rajasthan,NWR,26.9196,75.7878,Jaipur,true
+GADJ,Gandhinagar Jaipur,,NWR,,,Gandhinagar Jaipur,true
+BKI,Bandikui,,NWR,,,Bandikui,true
+BTE,Bharatpur Junction,Rajasthan,WCR,27.215,77.503,Bharatpur,true
+HTC,Hathras City,,NE,,,Hathras City,true
+KSJ,Kasganj,,NE,,,Kasganj,true
+FBD,Farrukhabad,,NE,,,Farrukhabad,true
+KJN,Kannauj,,NE,,,Kannauj,true
+CNB,Kanpur Central,,NCR,,,Kanpur Central,true
+LKO,Lucknow,,NR,,,Lucknow,true
+AYC,Ayodhya Cantt,,NR,,,Ayodhya Cantt,true
+AY,Ayodhya Dham,,NR,,,Ayodhya Dham,true
+MUR,Mankapur,,NE,,,Mankapur,true
+GKP,Gorakhpur,,NE,,,Gorakhpur,true
+DEOS,Deoria Sadar,,NE,,,Deoria Sadar,true
+BTT,Bhatni,,NE,,,Bhatni,true
+SV,Siwan,,NE,,,Siwan,true
+CPR,Chhapra,,NE,,,Chhapra,true
+HJP,Hajipur,,ECR,,,Hajipur,true
+MFP,Muzaffarpur,,ECR,,,Muzaffarpur,true
+SPJ,Samastipur,,ECR,,,Samastipur,true
+BJU,Barauni,,ECR,,,Barauni,true
+BGS,Begusarai,,ECR,,,Begusarai,true
+KGG,Khagaria,,ECR,,,Khagaria,true
+NNA,Naugachia,,ECR,,,Naugachia,true
+KIR,Katihar,,NFR,,,Katihar,true
+BOE,Barsoi,,NFR,,,Barsoi,true
+KNE,Kishanganj,,NFR,,,Kishanganj,true
+NJP,New Jalpaiguri,,NFR,,,New Jalpaiguri,true
+DLO,Dalgaon,,NFR,,,Dalgaon,true
+APDJ,Alipur Duar,,NFR,,,Alipur Duar,true
+KOJ,Kokrajhar,,NFR,,,Kokrajhar,true
+NBQ,New Bongaigaon,,NFR,,,New Bongaigaon,true
+GLPT,Goal Para Town,,NFR,,,Goal Para Town,true
+KYQ,Kamakhya,,NFR,,,Kamakhya,true
+GHY,Guwahati,,NFR,,,Guwahati,true
+BDTS,Bandra Terminus,,WR,,,Bandra Terminus,true
+BVI,Borivali,,WR,,,Borivali,true
+BSR,Vasai Road,,WR,,,Vasai Road,true
+PLG,Palghar,,WR,,,Palghar,true
+DRD,Dahanu Road,,WR,,,Dahanu Road,true
+VAPI,Vapi,,WR,,,Vapi,true
+BL,Valsad,,WR,,,Valsad,true
+BIM,Bilimora,,WR,,,Bilimora,true
+NVS,Navsari,,WR,,,Navsari,true
+ST,Surat,,WR,,,Surat,true
+KSB,Kosamba,,WR,,,Kosamba,true
+AKV,Ankleshwar,,WR,,,Ankleshwar,true
+BH,Bharuch,,WR,,,Bharuch,true
+MYG,Miyagam Karjan,,WR,,,Miyagam Karjan,true
+BRC,Vadodara,,WR,,,Vadodara,true
+SMLA,Samlaya,,WR,,,Samlaya,true
+DRL,Derol,,WR,,,Derol,true
+GDA,Godhra,,WR,,,Godhra,true
+SAT,Sant Road,,WR,,,Sant Road,true
+PPD,Piplod,,WR,,,Piplod,true
+LMK,Limkheda,,WR,,,Limkheda,true
+MAM,Mangal Mahudi,,WR,,,Mangal Mahudi,true
+DHD,Dahod,,WR,,,Dahod,true
+BIO,Bordi,,WR,,,Bordi,true
+ANAS,Anas,,WR,,,Anas,true
+MGN,Meghnagar,,WR,,,Meghnagar,true
+THDR,Thandla Rd,,WR,,,Thandla Rd,true
+PCN,Panch Pipila,,WR,,,Panch Pipila,true
+BMI,Bamnia,,WR,,,Bamnia,true
+BOG,Bhairongarh,,WR,,,Bhairongarh,true
+BILD,Bildi,,WR,,,Bildi,true
+MRN,Morwani,,WR,,,Morwani,true
+RTM,Ratlam,,WR,,,Ratlam,true
+BOD,Bangrod,,WR,,,Bangrod,true
+RNH,Runkhera,,WR,,,Runkhera,true
+KUH,Khachrod,,WR,,,Khachrod,true
+NAD,Nagda,,WR,,,Nagda,true
+MEP,Mahidpur Road,,WCR,,,Mahidpur Road,true
+VMA,Vikramgarh Alot,,WCR,,,Vikramgarh Alot,true
+CMU,Chau Mahla,,WCR,,,Chau Mahla,true
+SVA,Suwasra,,WCR,,,Suwasra,true
+SGZ,Shamgarh,,WCR,,,Shamgarh,true
+GOH,Garot,,WCR,,,Garot,true
+BWM,Bhawani Mandi,,WCR,,,Bhawani Mandi,true
+JHW,Jhalawar Road,,WCR,,,Jhalawar Road,true
+RMA,Ramganj Mandi,,WCR,,,Ramganj Mandi,true
+MKX,Morak,,WCR,,,Morak,true
+DARA,Dara,,WCR,,,Dara,true
+DKNT,Dakaniya Talav,,WCR,,,Dakaniya Talav,true
+KOTA,Kota,,WCR,,,Kota,true
+KPTN,Keshorai Patan,,WCR,,,Keshorai Patan,true
+KPZ,Kapren,,WCR,,,Kapren,true
+LKE,Lakheri,,WCR,,,Lakheri,true
+IDG,Indargarh,,WCR,,,Indargarh,true
+SWM,Sawai Madhopur,,WCR,,,Sawai Madhopur,true
+MLZ,Malarna,,WCR,,,Malarna,true
+NNW,Narayanpur Tatwara,,WCR,,,Narayanpur Tatwara,true
+GGC,Gangapur City,,WCR,,,Gangapur City,true
+SMVJ,Shri Mahaveerji,,WCR,,,Shri Mahaveerji,true
+HAN,Hindaun City,,WCR,,,Hindaun City,true
+FSP,Fateh Singhpura,,WCR,,,Fateh Singhpura,true
+BXN,Bayana,,WCR,,,Bayana,true
+GZB,Ghaziabad,,NR,,,Ghaziabad,true
+MTC,Meerut City,,NR,,,Meerut City,true
+MOZ,Muzaffarnagar,,NR,,,Muzaffarnagar,true
+TPZ,Tapri,,NR,,,Tapri,true
+RK,Roorkee,,NR,,,Roorkee,true
+JWP,Jwalapur,,NR,,,Jwalapur,true
+HW,Haridwar,,NR,,,Haridwar,true
+YNRK,Yog Nagari Rishikesh,,NR,,,Yog Nagari Rishikesh,true
+VRH,Virbhadra,,NR,,,Virbhadra,true
+RWL,Raiwala,,NR,,,Raiwala,true
+MOTC,Motichur,,NR,,,Motichur,true
+DBD,Deoband,,NR,,,Deoband,true
+SKF,Sakhoti Tanda,,NR,,,Sakhoti Tanda,true
+MUT,Meerut Cant,,NR,,,Meerut Cant,true
+RKM,Raja Ki Mandi,,NCR,,,Raja Ki Mandi,true
+MAKR,Malkheri,,WCR,,,Malkheri,true
+KYE,Khurai,,WCR,,,Khurai,true
+SGO,Saugor,,WCR,,,Saugor,true
+PHA,Patharia,,WCR,,,Patharia,true
+DMO,Damoh,,WCR,,,Damoh,true
+KMZ,Katni Murwara,,WCR,,,Katni Murwara,true
+CHD,Chandia Road,,SECR,,,Chandia Road,true
+UMR,Umaria,,SECR,,,Umaria,true
+NRZB,Nowrozabad,,SECR,,,Nowrozabad,true
+BRS,Birsinghpur,,SECR,,,Birsinghpur,true
+SDL,Shahdol,,SECR,,,Shahdol,true
+BUH,Burhar,,SECR,,,Burhar,true
+AAL,Amlai,,SECR,,,Amlai,true
+APR,Anuppur,,SECR,,,Anuppur,true
+JTI,Jaithari,,SECR,,,Jaithari,true
+PND,Pendra Road,,SECR,,,Pendra Road,true
+KGB,Kargi Road,,SECR,,,Kargi Road,true
+BSP,Bilaspur,,SECR,,,Bilaspur,true
+AKT,Akaltara,,SECR,,,Akaltara,true
+NIA,Janjgir Naila,,SECR,,,Janjgir Naila,true
+CPH,Champa,,SECR,,,Champa,true
+BUA,Baradwar,,SECR,,,Baradwar,true
+SKT,Sakti,,SECR,,,Sakti,true
+KHS,Kharsia,,SECR,,,Kharsia,true
+RIG,Raigarh,,SECR,,,Raigarh,true
+BPH,Belpahar,,SECR,,,Belpahar,true
+BRJN,Brajrajnagar,,SECR,,,Brajrajnagar,true
+JSG,Jharsuguda,,SER,,,Jharsuguda,true
+BMB,Bamra,,SER,,,Bamra,true
+GP,Raj Gangpur,,SER,,,Raj Gangpur,true
+ROU,Rourkela,,SER,,,Rourkela,true
+MOU,Manoharpur,,SER,,,Manoharpur,true
+GOL,Goilkera,,SER,,,Goilkera,true
+CKP,Chakaradharpur,,SER,,,Chakaradharpur,true
+RKSN,Rajkharsawan,,SER,,,Rajkharsawan,true
+SINI,Sini,,SER,,,Sini,true
+TATA,Tatanagar,,SER,,,Tatanagar,true
+GTS,Ghatsila,,SER,,,Ghatsila,true
+CKU,Chakulia,,SER,,,Chakulia,true
+HIJ,Hijli,,SER,,,Hijli,true
+JER,Jaleswar,,SER,,,Jaleswar,true
+BLS,Balasore,,SER,,,Balasore,true
+SORO,Soro,,SER,,,Soro,true
+BHC,Bhadrakh,,ECOR,,,Bhadrakh,true
+JJKR,Jajpur K Road,,ECOR,,,Jajpur K Road,true
+CTC,Cuttack,,ECOR,,,Cuttack,true
+SIL,Sakhi Gopal,,ECOR,,,Sakhi Gopal,true
+PURI,Puri,,ECOR,,,Puri,true
+SMT,Salamatpur,,WCR,,,Salamatpur,true
+SCI,Sanchi,,WCR,,,Sanchi,true
+BET,Bareth,,WCR,,,Bareth,true
+KAH,Kalhar,,WCR,,,Kalhar,true
+MNV,Mungaoli,,WCR,,,Mungaoli,true
+PIA,Pipraigaon,,WCR,,,Pipraigaon,true
+ASKN,Ashok Nagar,,WCR,,,Ashok Nagar,true
+SHDR,Shadhoragaon,,WCR,,,Shadhoragaon,true
+GUNA,Guna,,WCR,,,Guna,true
+RTA,Ruthiyai Junction,,WCR,,,Ruthiyai Junction,true
+CAG,Chhabra Gugor,,WCR,,,Chhabra Gugor,true
+SYL,Salpura,,WCR,,,Salpura,true
+ATRU,Atru,,WCR,,,Atru,true
+BAZ,Baran,,WCR,,,Baran,true
+ATH,Antah,,WCR,,,Antah,true
+AMLI,Amli,,WCR,,,Amli,true
+RWJ,Rawania Dungar,,WCR,,,Rawania Dungar,true
+DPZ,Devpura,,NWR,,,Devpura,true
+CKB,Chauth Ka Barwara,,NWR,,,Chauth Ka Barwara,true
+SURL,Sureli,,NWR,,,Sureli,true
+ISA,Isarda,,NWR,,,Isarda,true
+SRAS,Siras,,NWR,,,Siras,true
+BNLW,Banasthali Niwai,,NWR,,,Banasthali Niwai,true
+CHNN,Channani,,NWR,,,Channani,true
+CKS,Chaksu,,NWR,,,Chaksu,true
+SAS,Sheodaspura Padampura,,NWR,,,Sheodaspura Padampura,true
+SNGN,Sanganer,,NWR,,,Sanganer,true
+DPA,Durgapura,,NWR,,,Durgapura,true
+KKU,Kanakpura,,NWR,,,Kanakpura,true
+DNK,Dhanakya,,NWR,,,Dhanakya,true
+BOBS,Bobas,,NWR,,,Bobas,true
+JOB,Asalpurjobner,,NWR,,,Asalpurjobner,true
+HDA,Hirnoda,,NWR,,,Hirnoda,true
+FL,Phulera,,NWR,,,Phulera,true
+SBR,Sambhar Lake,,NWR,,,Sambhar Lake,true
+GA,Gudha,,NWR,,,Gudha,true
+NAC,Nawa City,,NWR,,,Nawa City,true
+KMNC,Kuchaman City,,NWR,,,Kuchaman City,true
+MKN,Makrana,,NWR,,,Makrana,true
+BOW,Borawar,,NWR,,,Borawar,true
+BSRL,Besroli,,NWR,,,Besroli,true
+GCH,Gachhipura,,NWR,,,Gachhipura,true
+DNA,Degana,,NWR,,,Degana,true
+JAC,Jalsu,,NWR,,,Jalsu,true
+REN,Ren,,NWR,,,Ren,true
+MTD,Merta Road,,NWR,,,Merta Road,true
+GOTN,Gotan,,NWR,,,Gotan,true
+KXG,Kharia Khangar,,NWR,,,Kharia Khangar,true
+UMED,Umed,,NWR,,,Umed,true
+PPR,Pipar Road,,NWR,,,Pipar Road,true
+AAS,Asranada,,NWR,,,Asranada,true
+BNO,Banar,,NWR,,,Banar,true
+JUCT,Jodhpur Cantt,,NWR,,,Jodhpur Cantt,true
+RKB,Raika Bagh,,NWR,,,Raika Bagh,true
+JU,Jodhpur,,NWR,,,Jodhpur,true
+SVDK,Shri Mata Vaishno Devi Katra,,NR,,,Shri Mata Vaishno Devi Katra,true
+MCTM,Martyr Captain Tushar Mahajan,,NR,,,Martyr Captain Tushar Mahajan,true
+JAT,Jammutavi,,NR,,,Jammutavi,true
+KTHU,Kathua,,NR,,,Kathua,true
+PTKC,Pathankot Cantt,,NR,,,Pathankot Cantt,true
+MEX,Mukerian,,NR,,,Mukerian,true
+SAG,Sangrur,,NR,,,Sangrur,true
+SFMU,Sunam Udham Singh Wala,,NR,,,Sunam Udham Singh Wala,true
+LHA,Lehra Gaga,,NR,,,Lehra Gaga,true
+JHL,Jakhal,,NR,,,Jakhal,true
+TUN,Tohana,,NR,,,Tohana,true
+NRW,Narwana,,NR,,,Narwana,true
+UCA,Uchana,,NR,,,Uchana,true
+BZO,Barsola,,NR,,,Barsola,true
+JIND,Jind,,NR,,,Jind,true
+JNA,Julana,,NR,,,Julana,true
+ROK,Rohtak,,NR,,,Rohtak,true
+BGZ,Bahadurgarh,,NR,,,Bahadurgarh,true
+SSB,Shakurbasti,,NR,,,Shakurbasti,true
+NGP,Nagpur,,CR,,,Nagpur,true
+SEGM,Sevagram,,CR,,,Sevagram,true
+CD,Chandrapur,,CR,,,Chandrapur,true
+BPQ,Balharshah,,CR,,,Balharshah,true
+RDM,Ramgundam,,SCR,,,Ramgundam,true
+TEL,Tenali,,SCR,,,Tenali,true
+OGL,Ongole,,SCR,,,Ongole,true
+NLR,Nellore,,SCR,,,Nellore,true
+GDR,Gudur,,SCR,,,Gudur,true
+RU,Renigunta,,SCR,,,Renigunta,true
+TPTY,Tirupati,,SCR,,,Tirupati,true
+CTO,Chittoor,,SCR,,,Chittoor,true
+KPD,Katpadi,,SR,,,Katpadi,true
+JTJ,Jolarpettai,,SR,,,Jolarpettai,true
+SA,Salem,,SR,,,Salem,true
+ED,Erode,,SR,,,Erode,true
+TUP,Tiruppur,,SR,,,Tiruppur,true
+CBE,Coimbatore,,SR,,,Coimbatore,true
+PGT,Palakkad,,SR,,,Palakkad,true
+OTP,Ottappalam,,SR,,,Ottappalam,true
+TCR,Thrisur,,SR,,,Thrisur,true
+AWY,Aluva,,SR,,,Aluva,true
+ERN,Ernakulam Town,,SR,,,Ernakulam Town,true
+KTYM,Kottayam,,SR,,,Kottayam,true
+TRVL,Tiruvalla,,SR,,,Tiruvalla,true
+CNGR,Chengannur,,SR,,,Chengannur,true
+KYJ,Kayankulam,,SR,,,Kayankulam,true
+QLN,Kollam,,SR,,,Kollam,true
+TVP,Trivandrum Pett,,SR,,,Trivandrum Pett,true
+TVC,Thiruvananthapuram Central,,SR,,,Thiruvananthapuram Central,true
+KZT,Kulitthurai,,SR,,,Kulitthurai,true
+NCJ,Nagercoil Junction,,SR,,,Nagercoil Junction,true
+CAPE,Kanyakumari,,SR,,,Kanyakumari,true
+CC,Chauri Chaura,,NE,,,Chauri Chaura,true
+SRU,Salempur,,NE,,,Salempur,true
+LRD,Lar Road,,NE,,,Lar Road,true
+BLTR,Belthara Road,,NE,,,Belthara Road,true
+IAA,Indara,,NE,,,Indara,true
+MAU,Mau,,NE,,,Mau,true
+DLR,Dullahapur,,NE,,,Dullahapur,true
+JKN,Jakhanian,,NE,,,Jakhanian,true
+SDT,Sadat,,NE,,,Sadat,true
+ARJ,Aunrihar,,NE,,,Aunrihar,true
+BCY,Varanasi City,,NE,,,Varanasi City,true
+BSB,Varanasi,,NR,,,Varanasi,true
+CHH,Chaukhandi,,NR,,,Chaukhandi,true
+SWPR,Sewapuri,,NR,,,Sewapuri,true
+KEH,Kapseti,,NR,,,Kapseti,true
+PRF,Parsipur,,NR,,,Parsipur,true
+BOY,Bhadohi,,NR,,,Bhadohi,true
+MOF,Mondh,,NR,,,Mondh,true
+SAW,Suriawan,,NR,,,Suriawan,true
+SQN,Sarai Kansrai,,NR,,,Sarai Kansrai,true
+JNH,Janghai,,NR,,,Janghai,true
+URPR,Ugrasenpur,,NR,,,Ugrasenpur,true
+PLP,Phulpur,,NR,,,Phulpur,true
+SYC,Sarai Chandi,,NR,,,Sarai Chandi,true
+PFM,Phaphamau,,NR,,,Phaphamau,true
+PRG,Prayag,,NR,,,Prayag,true
+PRYJ,Prayagraj,,NCR,,,Prayagraj,true
+NYN,Naini,,NCR,,,Naini,true
+SRJ,Shankargarh,,NCR,,,Shankargarh,true
+DBR,Dabhaura,,NCR,,,Dabhaura,true
+MKP,Manikpur,,NCR,,,Manikpur,true
+JTW,Jaitwar,,WCR,,,Jaitwar,true
+STA,Satna,,WCR,,,Satna,true
+MYR,Maihar,,WCR,,,Maihar,true
+KTE,Katni,,WCR,,,Katni,true
+SHR,Sihora Road,,WCR,,,Sihora Road,true
+JBP,Jabalpur,,WCR,,,Jabalpur,true
+MML,Madan Mahal,,WCR,,,Madan Mahal,true
+SRID,Sridham,,WCR,,,Sridham,true
+NU,Narsinghpur,,WCR,,,Narsinghpur,true
+KY,Kareli,,WCR,,,Kareli,true
+GAR,Gadarwara,,WCR,,,Gadarwara,true
+PPI,Pipariya,,WCR,,,Pipariya,true
+SGP,Sohagpur,,WCR,,,Sohagpur,true
+NGN,Nandgaon,,CR,,,Nandgaon,true
+LS,Lasalgaon,,CR,,,Lasalgaon,true
+IGP,Igatpuri,,CR,,,Igatpuri,true
+LTT,Lokmanyatilak,,CR,,,Lokmanyatilak,true
+KRBA,Korba,,SECR,,,Korba,true
+URGA,Urga,,SECR,,,Urga,true
+SRBA,Saragbundia,,SECR,,,Saragbundia,true
+MWRN,Madwarani,,SECR,,,Madwarani,true
+KTHD,Kothari Road,,SECR,,,Kothari Road,true
+BPRH,Balpur Halt,,SECR,,,Balpur Halt,true
+JRMG,Jairamnagar,,SECR,,,Jairamnagar,true
+BYL,Belha,,SECR,,,Belha,true
+BYT,Bhatapara,,SECR,,,Bhatapara,true
+TLD,Tilda,,SECR,,,Tilda,true
+R,Raipur,,SECR,,,Raipur,true
+BPHB,Bhilai Pwr Hs,,SECR,,,Bhilai Pwr Hs,true
+DURG,Durg,,SECR,,,Durg,true
+RJN,Raj Nandgaon,,SECR,,,Raj Nandgaon,true
+DGG,Dongargarh,,SECR,,,Dongargarh,true
+SKS,Salekasa,,SECR,,,Salekasa,true
+AGN,Amgaon,,SECR,,,Amgaon,true
+G,Gondia,,SECR,,,Gondia,true
+TRO,Tirora,,SECR,,,Tirora,true
+TMR,Tumsar Road,,SECR,,,Tumsar Road,true
+BRD,Bhandara Road,,SECR,,,Bhandara Road,true
+KP,Kamptee,,SECR,,,Kamptee,true
+KATL,Katol,,CR,,,Katol,true
+NRKR,Narkher,,CR,,,Narkher,true
+PAR,Pandhurna,,CR,,,Pandhurna,true
+MTY,Multai,,CR,,,Multai,true
+AMLA,Amla,,CR,,,Amla,true
+BZU,Betul,,CR,,,Betul,true
+GDYA,Ghoradongri,,CR,,,Ghoradongri,true
+CHJ,Chata,,NCR,,,Chata,true
+SBB,Sahibabad,,NR,,,Sahibabad,true
+MUD,Muradnagar,,NR,,,Muradnagar,true
+MDNR,Modinagar,,NR,,,Modinagar,true
+KAT,Khatauli,,NR,,,Khatauli,true
+SRE,Saharanpur,,NR,,,Saharanpur,true
+YJUD,Yamunanagar Jagadhri,,NR,,,Yamunanagar Jagadhri,true
+JUDW,Jagadhri Wshop,,NR,,,Jagadhri Wshop,true
+RAA,Barara,,NR,,,Barara,true
+SIR,Sirhind,,NR,,,Sirhind,true
+GVG,Govindgarh,,NR,,,Govindgarh,true
+KNN,Khanna,,NR,,,Khanna,true
+DBG,Darbhanga,,ECR,,,Darbhanga,true
+LSI,Laheria Sarai,,ECR,,,Laheria Sarai,true
+SEE,Sonpur,,ECR,,,Sonpur,true
+SIP,Suraimanpur,,NE,,,Suraimanpur,true
+BUI,Ballia,,NE,,,Ballia,true
+RSR,Rasra,,NE,,,Rasra,true
+MMA,Muhammadabad,,NE,,,Muhammadabad,true
+AMH,Azamgarh,,NE,,,Azamgarh,true
+KRND,Khorason Road,,NE,,,Khorason Road,true
+SHG,Shahganj,,NR,,,Shahganj,true
+MLPR,Malipur,,NR,,,Malipur,true
+ABP,Akbarpur,,NR,,,Akbarpur,true
+GGJ,Goshainganj,,NR,,,Goshainganj,true
+SLW,Sohwal,,NR,,,Sohwal,true
+RDL,Rudauli,,NR,,,Rudauli,true
+DYD,Daryabad,,NR,,,Daryabad,true
+BBK,Barabanki,,NR,,,Barabanki,true
+ON,Unnao,,NR,,,Unnao,true
+PHN,Pokhrayan,,NCR,,,Pokhrayan,true
+KPI,Kalpi,,NCR,,,Kalpi,true
+ORAI,Orai,,NCR,,,Orai,true
+AIT,Ait,,NCR,,,Ait,true
+MOTH,Moth,,NCR,,,Moth,true
+CGN,Chirgaon,,NCR,,,Chirgaon,true
+KHRJ,Khumbaraj,,WCR,,,Khumbaraj,true
+CBK,Chachura Binagani,,WCR,,,Chachura Binagani,true
+BRRG,Biyavra Rajgarh,,WCR,,,Biyavra Rajgarh,true
+PFR,Pachor Road,,WCR,,,Pachor Road,true
+SFW,Sarangpur,,WCR,,,Sarangpur,true
+SFY,Shajapur,,WCR,,,Shajapur,true
+MKC,Maksi Junction,,WR,,,Maksi Junction,true
+TAN,Tarana Road,,WR,,,Tarana Road,true
+UJN,Ujjain,,WR,,,Ujjain,true
+CYI,Chhayapuri,,WR,,,Chhayapuri,true
+ANND,Anand,,WR,,,Anand,true
+ND,Nadiad,,WR,,,Nadiad,true
+MHD,Mahemadavad Kheda Road,,WR,,,Mahemadavad Kheda Road,true
+MAN,Maninagar,,WR,,,Maninagar,true
+ADI,Ahmedabad,,WR,,,Ahmedabad,true
+MDRR,Madhavnagar Road,,WCR,,,Madhavnagar Road,true
+NWR,Niwar,,WCR,,,Niwar,true
+SNRR,Sansarpur,,WCR,,,Sansarpur,true
+SBD,Sleemanabad Rd,,WCR,,,Sleemanabad Rd,true
+DDCE,Dundi,,WCR,,,Dundi,true
+GSPR,Gosalpur,,WCR,,,Gosalpur,true
+DOE,Deori,,WCR,,,Deori,true
+ADTL,Adhartal,,WCR,,,Adhartal,true
+BRGT,Bheraghat,,WCR,,,Bheraghat,true
+BHTN,Bhitoni,,WCR,,,Bhitoni,true
+BMR,Bikrampur,,WCR,,,Bikrampur,true
+KKB,Karak Bel,,WCR,,,Karak Bel,true
+BELD,Belkhera,,WCR,,,Belkhera,true
+GPC,Ghatpindrai,,WCR,,,Ghatpindrai,true
+BNE,Bohani,,WCR,,,Bohani,true
+SCKR,Salichauka Road,,WCR,,,Salichauka Road,true
+JHT,Junehta,,WCR,,,Junehta,true
+BKH,Bankhedi,,WCR,,,Bankhedi,true
+GMD,Guramkhedi,,WCR,,,Guramkhedi,true
+BGTA,Bagra Tawa,,WCR,,,Bagra Tawa,true
+SQL,Sontalai,,WCR,,,Sontalai,true
+GRO,Gurra,,WCR,,,Gurra,true
+DRA,Dularia,,WCR,,,Dularia,true
+DKI,Dharmkundi,,WCR,,,Dharmkundi,true
+PGL,Pagdhal,,WCR,,,Pagdhal,true
+CRK,Charkhera,,WCR,,,Charkhera,true
+PAL,Palasner,,WCR,,,Palasner,true
+BRI,Bhiringi,,WCR,,,Bhiringi,true
+DRHI,Dagar Khedi,,WCR,,,Dagar Khedi,true
+BRUD,Barud,,WCR,,,Barud,true
+CKKD,Charkhera Khurd,,WCR,,,Charkhera Khurd,true
+SGBJ,Surgaon Banjari,,WCR,,,Surgaon Banjari,true
+MTA,Mathela,,WCR,,,Mathela,true
+BRGJ,Bargaon Gujar,,CR,,,Bargaon Gujar,true
+DGN,Dongargaon,,CR,,,Dongargaon,true
+SXA,Sagphata,,CR,,,Sagphata,true
+WGA,Waghoda,,CR,,,Waghoda,true
+NB,Nimbhora,,CR,,,Nimbhora,true
+RNY,Rangiya,,NFR,,,Rangiya,true
+BPRD,Barpeta Road,,NFR,,,Barpeta Road,true
+NOQ,New Alipurduar,,NFR,,,New Alipurduar,true
+NCB,New Cooch Behar,,NFR,,,New Cooch Behar,true
+DQG,Dhupguri,,NFR,,,Dhupguri,true
+MLDT,Malda Town,,ER,,,Malda Town,true
+NFK,New Farakka,,ER,,,New Farakka,true
+BHW,Barharwa,,ER,,,Barharwa,true
+SBG,Sahibganj,,ER,,,Sahibganj,true
+CLG,Kahalgaon,,ER,,,Kahalgaon,true
+BGP,Bhagalpur,,ER,,,Bhagalpur,true
+SGG,Sultanganj,,ER,,,Sultanganj,true
+BUP,Bariarpur,,ER,,,Bariarpur,true
+JMP,Jamalpur,,ER,,,Jamalpur,true
+AHA,Abhaipur,,ER,,,Abhaipur,true
+KIUL,Kiul,,ECR,,,Kiul,true
+LKR,Luckeesarai,,ECR,,,Luckeesarai,true
+BRYA,Barhiya,,ECR,,,Barhiya,true
+HTZ,Hathidah,,ECR,,,Hathidah,true
+MKA,Mokama,,ECR,,,Mokama,true
+BARH,Barh,,ECR,,,Barh,true
+BKP,Bakhtiyarpur,,ECR,,,Bakhtiyarpur,true
+KOO,Khusropur,,ECR,,,Khusropur,true
+FUT,Fatuha,,ECR,,,Fatuha,true
+PNC,Patna Saheb,,ECR,,,Patna Saheb,true
+PNBE,Patna,,ECR,,,Patna,true
+DNR,Danapur,,ECR,,,Danapur,true
+ARA,Ara,,ECR,,,Ara,true
+DURE,Dumraon,,ECR,,,Dumraon,true
+BXR,Buxar,,ECR,,,Buxar,true
+DLN,Dildarnagar,,ECR,,,Dildarnagar,true
+DDU,Ptdeen Dayal Upadhyaya,,ECR,,,Ptdeen Dayal Upadhyaya,true
+MZP,Mirzapur,,NCR,,,Mirzapur,true
+PCOI,Prayagraj Chheoki,,NCR,,,Prayagraj Chheoki,true
+ERS,Ernakulam,,SR,,,Ernakulam,true
+SRR,Shoranur,,SR,,,Shoranur,true
+PTB,Pattambi,,SR,,,Pattambi,true
+KTU,Kuttippuram,,SR,,,Kuttippuram,true
+TIR,Tirur,,SR,,,Tirur,true
+PGI,Parpanangadi,,SR,,,Parpanangadi,true
+FK,Ferok,,SR,,,Ferok,true
+CLT,Kozhikkode,,SR,,,Kozhikkode,true
+QLD,Quilandi,,SR,,,Quilandi,true
+BDJ,Vadakara,,SR,,,Vadakara,true
+TLY,Thalassery,,SR,,,Thalassery,true
+CAN,Kannur,,SR,,,Kannur,true
+PAZ,Payangadi,,SR,,,Payangadi,true
+PAY,Payyanur,,SR,,,Payyanur,true
+NLE,Nileshwar,,SR,,,Nileshwar,true
+KZE,Kanhangad,,SR,,,Kanhangad,true
+KGQ,Kasaragod,,SR,,,Kasaragod,true
+MAJN,Mangalore Junction,,SR,,,Mangalore Junction,true
+UD,Udupi,,KRCL,,,Udupi,true
+KUDA,Kundapura,,KRCL,,,Kundapura,true
+BTJL,Bhatkal,,KRCL,,,Bhatkal,true
+KT,Kumta,,KRCL,,,Kumta,true
+KAWR,Karwar,,KRCL,,,Karwar,true
+MAO,Madgaon Junction,,KRCL,,,Madgaon Junction,true
+THVM,Thivim,,KRCL,,,Thivim,true
+KKW,Kankavli,,KRCL,,,Kankavli,true
+RN,Ratnagiri,,KRCL,,,Ratnagiri,true
+CHI,Chiplun,,KRCL,,,Chiplun,true
+KHED,Khed,,KRCL,,,Khed,true
+PNVL,Panvel,,CR,,,Panvel,true
+ERL,Eraniel,,SR,,,Eraniel,true
+PASA,Parassala,,SR,,,Parassala,true
+NYY,Neyyattinkara,,SR,,,Neyyattinkara,true
+CRY,Chirayinkeezh,,SR,,,Chirayinkeezh,true
+KVU,Kadakavur,,SR,,,Kadakavur,true
+VAK,Varkala,,SR,,,Varkala,true
+PVU,Paravur,,SR,,,Paravur,true
+KPY,Karunagappalli,,SR,,,Karunagappalli,true
+MVLK,Mavelikara,,SR,,,Mavelikara,true
+CGY,Changanasseri,,SR,,,Changanasseri,true
+AFK,Angamali,,SR,,,Angamali,true
+CKI,Chalakudi,,SR,,,Chalakudi,true
+IJK,Irinjalakuda,,SR,,,Irinjalakuda,true
+WKI,Wadakancheri,,SR,,,Wadakancheri,true
+BQI,Bommidi,,SR,,,Bommidi,true
+PAK,Pakala,,SCR,,,Pakala,true
+KOU,Koduru,,SCR,,,Koduru,true
+HX,Cuddapah,,SCR,,,Cuddapah,true
+YA,Yerraguntla,,SCR,,,Yerraguntla,true
+TU,Tadipatri,,SCR,,,Tadipatri,true
+GY,Gooty,,SCR,,,Gooty,true
+GTL,Guntakal,,SCR,,,Guntakal,true
+AD,Adoni,,SCR,,,Adoni,true
+MALM,Manthralayam Rd,,SCR,,,Manthralayam Rd,true
+RC,Raichur,,SCR,,,Raichur,true
+YG,Yadgir,,SCR,,,Yadgir,true
+KWV,Kurduvadi,,CR,,,Kurduvadi,true
+KEM,Kem,,CR,,,Kem,true
+HYB,Hyderabad,,SCR,,,Hyderabad,true
+MED,Medchal,,SCR,,,Medchal,true
+KMC,Kamareddi,,SCR,,,Kamareddi,true
+NZB,Nizamabad,,SCR,,,Nizamabad,true
+BSX,Basar,,SCR,,,Basar,true
+NED,Nanded,,SCR,,,Nanded,true
+PAU,Purna,,SCR,,,Purna,true
+PBN,Parbhani,,SCR,,,Parbhani,true
+J,Jalna,,SCR,,,Jalna,true
+AWB,Aurangabad,,SCR,,,Aurangabad,true
+NSL,Nagarsol,,SCR,,,Nagarsol,true
+JAO,Jaora,,WR,,,Jaora,true
+MDS,Mandasor,,WR,,,Mandasor,true
+PIP,Piplia,,WR,,,Piplia,true
+NMH,Nimach,,WR,,,Nimach,true
+NBH,Nimbahera,,WR,,,Nimbahera,true
+COR,Chittaurgarh,,WR,,,Chittaurgarh,true
+BHL,Bhilwara,,NWR,,,Bhilwara,true
+BJNR,Bijainagar,,NWR,,,Bijainagar,true
+AII,Ajmer,,NWR,,,Ajmer,true
+KSG,Kishangarh,,NWR,,,Kishangarh,true
+NWH,Nawalgarh,,NWR,,,Nawalgarh,true
+JJN,Jhunjhunu,,NWR,,,Jhunjhunu,true
+CRWA,Chirawa,,NWR,,,Chirawa,true
+LHU,Loharu,,NWR,,,Loharu,true
+SWNI,Siwani,,NWR,,,Siwani,true
+HSR,Hisar,,NWR,,,Hisar,true
+LKU,Lalkua,,NE,,,Lalkua,true
+KHH,Kichha,,NE,,,Kichha,true
+BHI,Baheri,,NE,,,Baheri,true
+BPR,Bhojipura,,NE,,,Bhojipura,true
+IZN,Izzatnagar,,NE,,,Izzatnagar,true
+BC,Bareilly City,,NE,,,Bareilly City,true
+BRY,Bareilly,,NE,,,Bareilly,true
+BEM,Badaun,,NE,,,Badaun,true
+SRNK,Soron Shukar Kshetra,,NE,,,Soron Shukar Kshetra,true
+MRT,Mathura Cant,,NE,,,Mathura Cant,true
+DO,Dausa,,NWR,,,Dausa,true
+LUNI,Luni,,NWR,,,Luni,true
+SMR,Samdhari,,NWR,,,Samdhari,true
+MKSR,Mokalsar,,NWR,,,Mokalsar,true
+JOR,Jalor,,NWR,,,Jalor,true
+MON,Modran,,NWR,,,Modran,true
+MBNL,Marwar Bhinmal,,NWR,,,Marwar Bhinmal,true
+RNV,Raniwara,,NWR,,,Raniwara,true
+DQN,Dhanera,,NWR,,,Dhanera,true
+BLDI,Bhildi,,WR,,,Bhildi,true
+PTN,Patan,,WR,,,Patan,true
+MSH,Mahesana,,WR,,,Mahesana,true
+SUNR,Surendranagar,,WR,,,Surendranagar,true
+WKR,Wankaner,,WR,,,Wankaner,true
+RJT,Rajkot,,WR,,,Rajkot,true
+YPR,Yasvantpur,,SWR,,,Yasvantpur,true
+TK,Tumkur,,SWR,,,Tumkur,true
+TTR,Tiptur,,SWR,,,Tiptur,true
+ASK,Arsikere,,SWR,,,Arsikere,true
+RRB,Birur,,SWR,,,Birur,true
+DVG,Davangere,,SWR,,,Davangere,true
+RNR,Ranibennur,,SWR,,,Ranibennur,true
+UBL,Sss Hubballi,,SWR,,,Sss Hubballi,true
+GDG,Gadag,,SWR,,,Gadag,true
+BDM,Badami,,SWR,,,Badami,true
+BGK,Bagalkot,,SWR,,,Bagalkot,true
+LMT,Almatti,,SWR,,,Almatti,true
+BJP,Vijayapura,,SWR,,,Vijayapura,true
+TVL,Tadwal,,SWR,,,Tadwal,true
+BOR,Boisar,,WR,,,Boisar,true
+PNU,Palanpur,,WR,,,Palanpur,true
+ABR,Abu Road,,NWR,,,Abu Road,true
+FA,Falna,,NWR,,,Falna,true
+RANI,Rani,,NWR,,,Rani,true
+MJ,Marwar,,NWR,,,Marwar,true
+PMY,Pali Marwar,,NWR,,,Pali Marwar,true
+NGO,Nagaur,,NWR,,,Nagaur,true
+NOK,Nokha,,NWR,,,Nokha,true
+BKN,Bikaner,,NWR,,,Bikaner,true
+MDVK,Mahadeokhedi,,WCR,,,Mahadeokhedi,true
+SRKI,Semarkheri,,WCR,,,Semarkheri,true
+KXB,Kanjai,,WCR,,,Kanjai,true
+GVB,Guneru Bamori,,WCR,,,Guneru Bamori,true
+RTWS,Rahatwas,,WCR,,,Rahatwas,true
+ORR,Orr,,WCR,,,Orr,true
+HPKA,Hinotia Pipalkhera,,WCR,,,Hinotia Pipalkhera,true
+RIKA,Ratikheda,,WCR,,,Ratikheda,true
+PIGT,Pilighat,,WCR,,,Pilighat,true
+PGA,Pagara,,WCR,,,Pagara,true
+MABN,Maban,,WCR,,,Maban,true
+TRWT,Taravata,,WCR,,,Taravata,true
+MINA,Miyana,,WCR,,,Miyana,true
+RSJ,Rayser,,WCR,,,Rayser,true
+BDWS,Badarwas,,WCR,,,Badarwas,true
+LWS,Lukwasa,,WCR,,,Lukwasa,true
+KLRS,Kolaras,,WCR,,,Kolaras,true
+KCR,Khonker,,WCR,,,Khonker,true
+SVPI,Shivpuri,,WCR,,,Shivpuri,true
+KAW,Khajri,,WCR,,,Khajri,true
+PARH,Padarkheda,,WCR,,,Padarkheda,true
+MOJ,Mohana,,WCR,,,Mohana,true
+RENH,Renhat,,WCR,,,Renhat,true
+GHAI,Ghatigaon,,WCR,,,Ghatigaon,true
+PNHR,Panihar,,WCR,,,Panihar,true
+HWH,Howrah,,ER,,,Howrah,true
+BWN,Bardhaman,,ER,,,Bardhaman,true
+DGR,Durgapur,,ER,,,Durgapur,true
+ASN,Asansol,,ER,,,Asansol,true
+DHN,Dhanbad,,ECR,,,Dhanbad,true
+GMO,Nsc Bose J Gomo,,ECR,,,Nsc Bose J Gomo,true
+PNME,Parasnath,,ECR,,,Parasnath,true
+KQR,Koderma,,ECR,,,Koderma,true
+GAYA,Gaya,,ECR,,,Gaya,true
+DOS,Dehri On Sone,,ECR,,,Dehri On Sone,true
+SSM,Sasaram,,ECR,,,Sasaram,true
+BBU,Bhabua Road,,ECR,,,Bhabua Road,true
+CAR,Chunar,,NCR,,,Chunar,true
+BDL,Vindhyachal,,NCR,,,Vindhyachal,true
+CKTD,Chitrakot,,NCR,,,Chitrakot,true
+ATE,Atarra,,NCR,,,Atarra,true
+BNDA,Banda,,NCR,,,Banda,true
+MBA,Mahoba,,NCR,,,Mahoba,true
+KLAR,Kulpahar,,NCR,,,Kulpahar,true
+HPP,Harpalpur,,NCR,,,Harpalpur,true
+MRPR,Mau Ranipur,,NCR,,,Mau Ranipur,true
+NEW,Nivari,,NCR,,,Nivari,true
+BWR,Barwa Sagar,,NCR,,,Barwa Sagar,true
+NRL,Neral,,CR,,,Neral,true
+TGN,Talegaon,,CR,,,Talegaon,true
+CCH,Chinchvad,,CR,,,Chinchvad,true
+KK,Khadki,,CR,,,Khadki,true
+SVJR,Shivaji Nagar,,CR,,,Shivaji Nagar,true
+JJR,Jejuri,,CR,,,Jejuri,true
+NIRA,Nira,,CR,,,Nira,true
+LNN,Lonand,,CR,,,Lonand,true
+WTR,Wathar,,CR,,,Wathar,true
+STR,Satara,,CR,,,Satara,true
+KRG,Koregaon,,CR,,,Koregaon,true
+RMP,Rahimatpur,,CR,,,Rahimatpur,true
+TAZ,Targaon,,CR,,,Targaon,true
+MSR,Masur,,CR,,,Masur,true
+SIW,Shiravade,,CR,,,Shiravade,true
+KRD,Karad,,CR,,,Karad,true
+KOV,Kirloskarvadi,,CR,,,Kirloskarvadi,true
+BVQ,Bhilavdi,,CR,,,Bhilavdi,true
+SLI,Sangli,,CR,,,Sangli,true
+MRJ,Miraj,,CR,,,Miraj,true
+JSP,Jayasingpur,,CR,,,Jayasingpur,true
+HTK,Hatkanangale,,CR,,,Hatkanangale,true
+KOP,Kolhapur,,CR,,,Kolhapur,true
+SMRR,Sumreri,,WCR,,,Sumreri,true
+JRK,Jeruwa Khera,,WCR,,,Jeruwa Khera,true
+ISH,Isarwara,,WCR,,,Isarwara,true
+NOI,Nariaoli,,WCR,,,Nariaoli,true
+MKRN,Makronia,,WCR,,,Makronia,true
+LDA,Lidhora Khurd,,WCR,,,Lidhora Khurd,true
+GW,Girwar,,WCR,,,Girwar,true
+GAJ,Ganeshganj,,WCR,,,Ganeshganj,true
+ANA,Aslana,,WCR,,,Aslana,true
+BNU,Bandakpur,,WCR,,,Bandakpur,true
+GEA,Ghatera,,WCR,,,Ghatera,true
+SAO,Sagoni,,WCR,,,Sagoni,true
+SYA,Salaia,,WCR,,,Salaia,true
+BQQ,Bakhleta,,WCR,,,Bakhleta,true
+REI,Rithi,,WCR,,,Rithi,true
+HDU,Hardua,,WCR,,,Hardua,true
+VKR,Venkatnagar,,SECR,,,Venkatnagar,true
+KOI,Khodri,,SECR,,,Khodri,true
+USL,Uslapur,,SECR,,,Uslapur,true
+VRL,Veraval,,WR,,,Veraval,true
+MLHA,Maliya Hatina,,WR,,,Maliya Hatina,true
+KSD,Keshod,,WR,,,Keshod,true
+JND,Junagadh,,WR,,,Junagadh,true
+JLR,Jetalsar,,WR,,,Jetalsar,true
+VRR,Virpur,,WR,,,Virpur,true
+GDL,Gondal,,WR,,,Gondal,true
+BKNG,Bhakti Nagar,,WR,,,Bhakti Nagar,true
+THAN,Than,,WR,,,Than,true
+VG,Viramgam,,WR,,,Viramgam,true
+CLDY,Chandlodiya,,WR,,,Chandlodiya,true
+BCH,Berchha,,WR,,,Berchha,true
+KSH,Kali Sindh,,WR,,,Kali Sindh,true
+AKD,Akodia,,WR,,,Akodia,true
+SJP,Shujalpur,,WR,,,Shujalpur,true
+KPP,Kalapipal,,WR,,,Kalapipal,true
+PRB,Parbati,,WR,,,Parbati,true
+SEH,Sehore,,WR,,,Sehore,true
+SHRN,Sant Hirdaram Nagar,,WCR,,,Sant Hirdaram Nagar,true
+SEY,Seoni,,SECR,,,Seoni,true
+CHUA,Chourai,,SECR,,,Chourai,true
+CWA,Chhindwara,,SECR,,,Chhindwara,true
+PUX,Parasia,,CR,,,Parasia,true
+JNO,Junnor Deo,,CR,,,Junnor Deo,true
+NVG,Nawagaon,,CR,,,Nawagaon,true
+BXY,Bordhal,,CR,,,Bordhal,true
+DSJ,Delhi Safdarjng,,NR,,,Delhi Safdarjng,true
+NNO,Nangloi,,NR,,,Nangloi,true
+BRZ,Bareta,,NR,,,Bareta,true
+BLZ,Budhlada,,NR,,,Budhlada,true
+MSZ,Mansa,,NR,,,Mansa,true
+MAUR,Maur,,NR,,,Maur,true
+BTI,Bathinda,,NR,,,Bathinda,true
+GNA,Goneana,,NR,,,Goneana,true
+GJUT,Gangsar Jaitu,,NR,,,Gangsar Jaitu,true
+KKP,Kot Kapura,,NR,,,Kot Kapura,true
+FDK,Faridkot,,NR,,,Faridkot,true
+FZR,Firozpur Cant,,NR,,,Firozpur Cant,true
+LJN,Lucknow,,NE,,,Lucknow,true
+HGT,Hinganghat,,CR,,,Hinganghat,true
+SKZR,Sirpur Kaghaznagar,,SCR,,,Sirpur Kaghaznagar,true
+BPA,Belampalli,,SCR,,,Belampalli,true
+MCI,Mancheral,,SCR,,,Mancheral,true
+PDPL,Peddapalli,,SCR,,,Peddapalli,true
+JMKT,Jamikunta,,SCR,,,Jamikunta,true
+KDM,Kesamudram,,SCR,,,Kesamudram,true
+DKJ,Dornakal,,SCR,,,Dornakal,true
+YP,Errupalem,,SCR,,,Errupalem,true
+NGNT,New Guntur,,SCR,,,New Guntur,true
+NDO,Nidubrolu,,SCR,,,Nidubrolu,true
+BPP,Bapatla,,SCR,,,Bapatla,true
+CLX,Chirala,,SCR,,,Chirala,true
+SKM,Singarayakonda,,SCR,,,Singarayakonda,true
+KVZ,Kavali,,SCR,,,Kavali,true
+NYP,Nayudupeta,,SR,,,Nayudupeta,true
+SPE,Sullurupeta,,SR,,,Sullurupeta,true
+MAS,Puratchi Thalaivar Dr Mgr Ctl,,SR,,,Puratchi Thalaivar Dr Mgr Ctl,true
+TRT,Tiruttani,,SR,,,Tiruttani,true
+AJJ,Arakkonam,,SR,,,Arakkonam,true
+CJ,Kanchipuram,,SR,,,Kanchipuram,true
+CGL,Chengalpattu,,SR,,,Chengalpattu,true
+MLMR,Melmaruvathur,,SR,,,Melmaruvathur,true
+TMV,Tindivanam,,SR,,,Tindivanam,true
+VM,Villupuram,,SR,,,Villupuram,true
+VRI,Vriddhachalam,,SR,,,Vriddhachalam,true
+ALU,Ariyalur,,SR,,,Ariyalur,true
+SRGM,Srirangam,,SR,,,Srirangam,true
+TPJ,Tiruchchirappalli,,SR,,,Tiruchchirappalli,true
+DG,Dindigul,,SR,,,Dindigul,true
+MDU,Madurai,,SR,,,Madurai,true
+VPT,Virudunagar,,SR,,,Virudunagar,true
+SRT,Satur,,SR,,,Satur,true
+CVP,Kovilpatti,,SR,,,Kovilpatti,true
+TEN,Tirunelveli,,SR,,,Tirunelveli,true
+NNN,Nanguneri,,SR,,,Nanguneri,true
+VLY,Valliyur,,SR,,,Valliyur,true
+BUW,Burhwal,,NE,,,Burhwal,true
+CLJ,Colonelganj,,NE,,,Colonelganj,true
+GD,Gonda,,NE,,,Gonda,true
+MSW,Maskanwa,,NE,,,Maskanwa,true
+BV,Babhnan,,NE,,,Babhnan,true
+BST,Basti,,NE,,,Basti,true
+KLD,Khalilabad,,NE,,,Khalilabad,true
+SWA,Sahjanwa,,NE,,,Sahjanwa,true
+BHTR,Bhatpar Rani,,NE,,,Bhatpar Rani,true
+BTK,Bankata,,NE,,,Bankata,true
+MW,Mairwa,,NE,,,Mairwa,true
+DDA,Duraundha,,NE,,,Duraundha,true
+EKMA,Ekma,,NE,,,Ekma,true
+DGA,Dighwara,,ECR,,,Dighwara,true
+BNR,Bhagwanpur,,ECR,,,Bhagwanpur,true
+DOL,Dholi,,ECR,,,Dholi,true
+KRBP,Khudiram Bose Pusa,,ECR,,,Khudiram Bose Pusa,true
+DSS,Dalsingh Sarai,,ECR,,,Dalsingh Sarai,true
+HDP,Hadapsar,,CR,,,Hadapsar,true
+MJBK,Manjari Budruk,,CR,,,Manjari Budruk,true
+LONI,Loni,,CR,,,Loni,true
+URI,Uruli,,CR,,,Uruli,true
+YT,Yevat,,CR,,,Yevat,true
+KDG,Kedgaon,,CR,,,Kedgaon,true
+PAA,Patas,,CR,,,Patas,true
+MLM,Malthan,,CR,,,Malthan,true
+BGVN,Bhigwan,,CR,,,Bhigwan,true
+JNTR,Jinti Road,,CR,,,Jinti Road,true
+PRWD,Parewadi,,CR,,,Parewadi,true
+WSB,Washimbe,,CR,,,Washimbe,true
+BLNI,Bhalwani,,CR,,,Bhalwani,true
+WDS,Wadsinge,,CR,,,Wadsinge,true
+MA,Madha,,CR,,,Madha,true
+WKA,Vakav,,CR,,,Vakav,true
+AAG,Angar,,CR,,,Angar,true
+MKPT,Malikpeth,,CR,,,Malikpeth,true
+MO,Mohol,,CR,,,Mohol,true
+MVE,Mundhewadi,,CR,,,Mundhewadi,true
+PK,Pakni,,CR,,,Pakni,true
+YNK,Yelahanka,,SWR,,,Yelahanka,true
+HUP,Hindupur,,SWR,,,Hindupur,true
+DMM,Dharmavaram,,SCR,,,Dharmavaram,true
+ATP,Anantapur,,SCR,,,Anantapur,true
+KRNT,Kurnool City,,SCR,,,Kurnool City,true
+GWD,Gadwal,,SCR,,,Gadwal,true
+MBNR,Mahbubnagar,,SCR,,,Mahbubnagar,true
+KCG,Kacheguda,,SCR,,,Kacheguda,true
+MUE,Mudkhed,,SCR,,,Mudkhed,true
+HNL,Hingoli Deccan,,SCR,,,Hingoli Deccan,true
+WHM,Washim,,SCR,,,Washim,true
+AK,Akola,,CR,,,Akola,true
+NAVI,Navi,,CR,,,Navi,true
+CNDB,Chandur Bazar,,CR,,,Chandur Bazar,true
+WOC,Warud Orange City,,CR,,,Warud Orange City,true
+DWX,Dewas,,WR,,,Dewas,true
+INDB,Indore,,WR,,,Indore,true
+DADN,Dr Ambedkar Nagar,,WR,,,Dr Ambedkar Nagar,true
+OKHA,Okha,,WR,,,Okha,true
+DWK,Dwarka,,WR,,,Dwarka,true
+BHTA,Bhatiya,,WR,,,Bhatiya,true
+KMBL,Khambhaliya,,WR,,,Khambhaliya,true
+JAM,Jamnagar,,WR,,,Jamnagar,true
+HAPA,Hapa,,WR,,,Hapa,true
+UJA,Unjha,,WR,,,Unjha,true
+SID,Siddhpur,,WR,,,Siddhpur,true
+BER,Beawar,,NWR,,,Beawar,true
+AWR,Alwar,,NWR,,,Alwar,true
+KRH,Khairthal,,NWR,,,Khairthal,true
+RE,Rewari,,NWR,,,Rewari,true
+GGN,Gurgaon,,NR,,,Gurgaon,true
+DEC,Delhi Cantt,,NR,,,Delhi Cantt,true
+DEE,Delhi Sarai Rohilla,,NR,,,Delhi Sarai Rohilla,true
+DDN,Dehradoon,,NR,,,Dehradoon,true
+SCM,Simhachalam,,ECOR,,,Simhachalam,true
+VBL,Bobbili,,ECOR,,,Bobbili,true
+PVP,Parvatipuram,,ECOR,,,Parvatipuram,true
+PVPT,Parvatipuram Tn,,ECOR,,,Parvatipuram Tn,true
+RGDA,Rayagada,,ECOR,,,Rayagada,true
+MNGD,Muniguda,,ECOR,,,Muniguda,true
+AMB,Ambodala,,ECOR,,,Ambodala,true
+KSNG,Kesinga,,ECOR,,,Kesinga,true
+TIG,Titlagarh,,ECOR,,,Titlagarh,true
+KBJ,Kantabanji,,ECOR,,,Kantabanji,true
+HSK,Harishanker Rd,,ECOR,,,Harishanker Rd,true
+KRAR,Khariar Road,,ECOR,,,Khariar Road,true
+BGBR,Bagbahra,,ECOR,,,Bagbahra,true
+MSMD,Mahasamund,,ECOR,,,Mahasamund,true
+FTP,Fatehpur,,NCR,,,Fatehpur,true
+JJK,Jhinjhak,,NCR,,,Jhinjhak,true
+ETW,Etawah,,NCR,,,Etawah,true
+HAB,Bah,,NCR,,,Bah,true
+FAB,Fatehabad,,NCR,,,Fatehabad,true
+GDO,Goverdhan,,NCR,,,Goverdhan,true
+DEEG,Deeg,,NCR,,,Deeg,true
+BINR,Brij Nagar,,NCR,,,Brij Nagar,true
+GVH,Govind Garh,,NCR,,,Govind Garh,true
+FPS,Fatehpur-shekhawati,,NWR,,,Fatehpur-shekhawati,true
+RTGH,Ratangarh,,NWR,,,Ratangarh,true
+RJR,Rajaldesar,,NWR,,,Rajaldesar,true
+SDGH,Sri Dungargarh,,NWR,,,Sri Dungargarh,true
+SDF,Sudsar,,NWR,,,Sudsar,true
+NPS,Napasar,,NWR,,,Napasar,true
+LGH,Lalgarh,,NWR,,,Lalgarh,true
+BHA,Bhandai,,NCR,,,Bhandai,true
+JJ,Jajau,,NCR,,,Jajau,true
+MIA,Mania,,NCR,,,Mania,true
+HET,Hetampur,,NCR,,,Hetampur,true
+SIKD,Sikroda Kwanri,,NCR,,,Sikroda Kwanri,true
+SANK,Sank,,NCR,,,Sank,true
+NUB,Nurabad,,NCR,,,Nurabad,true
+BAO,Banmor,,NCR,,,Banmor,true
+RRU,Rayaru,,NCR,,,Rayaru,true
+BLNR,Birlanagar,,NCR,,,Birlanagar,true
+STLI,Sithouli,,NCR,,,Sithouli,true
+ARI,Antri,,NCR,,,Antri,true
+AEH,Anant Paith,,NCR,,,Anant Paith,true
+SMTL,Simariatal,,NCR,,,Simariatal,true
+KTRA,Kotra,,NCR,,,Kotra,true
+SOR,Sonagir,,NCR,,,Sonagir,true
+KRQ,Karari,,NCR,,,Karari,true
+NBJU,New Barauni,,ECR,,,New Barauni,true
+MNE,Mansi,,ECR,,,Mansi,true
+THB,Thana Bihpur,,ECR,,,Thana Bihpur,true
+HJI,Hojai,,NFR,,,Hojai,true
+LMG,Lumding,,NFR,,,Lumding,true
+DPU,Diphu,,NFR,,,Diphu,true
+DMV,Dimapur,,NFR,,,Dimapur,true
+FKG,Furkating,,NFR,,,Furkating,true
+MXN,Mariani,,NFR,,,Mariani,true
+SLGR,Simaluguri,,NFR,,,Simaluguri,true
+NTSK,New Tinsukia,,NFR,,,New Tinsukia,true
+DBRG,Dibrugarh,,NFR,,,Dibrugarh,true
+SDE,Sadisopur,,ECR,,,Sadisopur,true
+BTA,Bihta,,ECR,,,Bihta,true
+BEA,Bihiya,,ECR,,,Bihiya,true
+RPR,Raghunathpur,,ECR,,,Raghunathpur,true
+GMR,Gahmar,,ECR,,,Gahmar,true
+ZNA,Zamania,,ECR,,,Zamania,true
+KYT,Kailahat,,NCR,,,Kailahat,true
+MNF,Manda Road,,NCR,,,Manda Road,true
+MJA,Meja Road,,NCR,,,Meja Road,true
+MJG,Majhagawan,,WCR,,,Majhagawan,true
+NR,Niphad,,CR,,,Niphad,true
+KSRA,Kasara,,CR,,,Kasara,true
+MURD,Mandawar M Rd,,NCR,,,Mandawar M Rd,true
+KL,Kherli,,NCR,,,Kherli,true
+NBI,Nadbai,,NCR,,,Nadbai,true
+AH,Achhnera,,NCR,,,Achhnera,true
+IDH,Idgah Agra,,NCR,,,Idgah Agra,true
+AF,Agra Fort,,NCR,,,Agra Fort,true
+TDL,Tundla,,NCR,,,Tundla,true
+SKB,Shikohabad,,NCR,,,Shikohabad,true
+NHH,Nihalgarh,,NR,,,Nihalgarh,true
+MFKA,Musafir Khana,,NR,,,Musafir Khana,true
+SLN,Sultanpur,,NR,,,Sultanpur,true
+JOP,Jaunpur City,,NR,,,Jaunpur City,true
+BTP,Babatpur,,NR,,,Babatpur,true
+KPG,Kopargaon,,CR,,,Kopargaon,true
+BAP,Belapur,,CR,,,Belapur,true
+ANG,Ahmadnagar,,CR,,,Ahmadnagar,true
+DDCC,Daund Chord Line,,CR,,,Daund Chord Line,true
+KUD,Kudachi,,SWR,,,Kudachi,true
+RBG,Raybag,,SWR,,,Raybag,true
+GPB,Ghatprabha,,SWR,,,Ghatprabha,true
+BGM,Belagavi,,SWR,,,Belagavi,true
+LD,Londa,,SWR,,,Londa,true
+CLR,Castle Rock,,SWR,,,Castle Rock,true
+QLM,Kulem,,SWR,,,Kulem,true
+SVM,Sanvordem (kudchade),,SWR,,,Sanvordem (kudchade),true
+VSG,Vasco Da Gama,,SWR,,,Vasco Da Gama,true
+BEHR,Beohari,,WCR,,,Beohari,true
+BRGW,Bargawan,,WCR,,,Bargawan,true
+SGRL,Singrauli,,ECR,,,Singrauli,true
+CPU,Chopan,,ECR,,,Chopan,true
+RNQ,Renukut,,ECR,,,Renukut,true
+GHQ,Garhwa,,ECR,,,Garhwa,true
+GHD,Garwa Road,,ECR,,,Garwa Road,true
+DTO,Daltonganj,,ECR,,,Daltonganj,true
+LTHR,Latehar,,ECR,,,Latehar,true
+TORI,Tori,,ECR,,,Tori,true
+PTRU,Patratu,,ECR,,,Patratu,true
+BRKA,Barka Kana,,SER,,,Barka Kana,true
+GMIA,Gumia,,ECR,,,Gumia,true
+PUS,Phusro,,ECR,,,Phusro,true
+AKOR,Akalkot Road,,CR,,,Akalkot Road,true
+DUD,Dudhani,,CR,,,Dudhani,true
+GUR,Ganagapur Road,,CR,,,Ganagapur Road,true
+NW,Nalwar,,SCR,,,Nalwar,true
+SADP,Saidapur,,SCR,,,Saidapur,true
+KSN,Krishna,,SCR,,,Krishna,true
+SSPN,Sai P Nilayam,,SWR,,,Sai P Nilayam,true
+PKD,Penukonda,,SWR,,,Penukonda,true
+GBD,Gauribidanur,,SWR,,,Gauribidanur,true
+DBU,Dodballapur,,SWR,,,Dodballapur,true
+BNCE,Bangalore East,,SWR,,,Bangalore East,true
+SBC,Ksr Bengaluru,,SWR,,,Ksr Bengaluru,true
+COA,Kakinada Port,,SCR,,,Kakinada Port,true
+CCT,Kakinada Town,,SCR,,,Kakinada Town,true
+GNT,Guntur,,SCR,,,Guntur,true
+SAP,Sattenapalle,,SCR,,,Sattenapalle,true
+NDKD,Nadikode,,SCR,,,Nadikode,true
+MRGA,Miryalaguda,,SCR,,,Miryalaguda,true
+NLDA,Nalgonda,,SCR,,,Nalgonda,true
+VKB,Vikarabad,,SCR,,,Vikarabad,true
+SRGT,Surendranagar G,,WR,,,Surendranagar G,true
+BTD,Botad,,WR,,,Botad,true
+DLJ,Dhola,,WR,,,Dhola,true
+BVC,Bhavnagar Terminus,,WR,,,Bhavnagar Terminus,true
+RJP,Razampeta,,SCR,,,Razampeta,true
+PER,Perambur,,SR,,,Perambur,true
+MS,Chennai Egmore,,SR,,,Chennai Egmore,true
+TBM,Tambaram,,SR,,,Tambaram,true
+TDPR,Tiruppadiripuliyur,,SR,,,Tiruppadiripuliyur,true
+CDM,Chidambaram,,SR,,,Chidambaram,true
+SY,Sirkazhi,,SR,,,Sirkazhi,true
+MV,Mayiladuturai,,SR,,,Mayiladuturai,true
+TVR,Thiruvarur,,SR,,,Thiruvarur,true
+NGT,Nagappattinam,,SR,,,Nagappattinam,true
+NCR,Nagore,,NCR,,,Nagore,true
+KIK,Karaikal,,SR,,,Karaikal,true
+ANDN,Anand Nagar,,NE,,,Anand Nagar,true
+SDDN,Siddharth Nagar,,NE,,,Siddharth Nagar,true
+SOT,Shohratgarh,,NE,,,Shohratgarh,true
+BNY,Barhni,,NE,,,Barhni,true
+PPW,Pachperwa,,NE,,,Pachperwa,true
+GIR,Gainsari,,NE,,,Gainsari,true
+TLR,Tulsipur,,NE,,,Tulsipur,true
+KPE,Kauwapur,,NE,,,Kauwapur,true
+JKNI,Jharkhandi,,NE,,,Jharkhandi,true
+BLP,Balrampur,,NE,,,Balrampur,true
+NDB,Nandurbar,,WR,,,Nandurbar,true
+BHET,Bhestan,,WR,,,Bhestan,true
+PRRB,Prayagraj Rambag,,NE,,,Prayagraj Rambag,true
+GYN,Gyanpur Road,,NE,,,Gyanpur Road,true
+BHLP,Bhulanpur,,NE,,,Bhulanpur,true
+SRNT,Sarnath,,NE,,,Sarnath,true
+GCT,Ghazipur City,,NE,,,Ghazipur City,true
+YFP,Yusufpur,,NE,,,Yusufpur,true
+SKI,Sakri,,ECR,,,Sakri,true
+MBI,Madhubani,,ECR,,,Madhubani,true
+JYG,Jaynagar,,ECR,,,Jaynagar,true
+MGR,Monghyr,,ER,,,Monghyr,true
+CAA,Chakia,,ECR,,,Chakia,true
+BMKI,Bapudm Motihari,,ECR,,,Bapudm Motihari,true
+SGL,Sagauli,,ECR,,,Sagauli,true
+BTH,Bettiah,,ECR,,,Bettiah,true
+NKE,Narkatiaganj,,ECR,,,Narkatiaganj,true
+DHG,Dhrangadhra,,WR,,,Dhrangadhra,true
+SIOB,Samakhiali B G,,WR,,,Samakhiali B G,true
+BCOB,Bhachau Bg,,WR,,,Bhachau Bg,true
+GIMB,Gandhidham Bg,,WR,,,Gandhidham Bg,true
+RMM,Rameswaram,,SR,,,Rameswaram,true
+RMD,Ramanathapuram,,SR,,,Ramanathapuram,true
+MNM,Manamadurai,,SR,,,Manamadurai,true
+PDKT,Pudukkottai,,SR,,,Pudukkottai,true
+LMNR,Lakshmibai Ngr,,WR,,,Lakshmibai Ngr,true
+FTD,Fatehabad Chjn,,WR,,,Fatehabad Chjn,true
+SGRA,Sangaria,,NWR,,,Sangaria,true
+MBY,Mandi Dabwali,,NWR,,,Mandi Dabwali,true
+KJM,Krishnarajapurm,,SWR,,,Krishnarajapurm,true
+BWT,Bangarapet,,SWR,,,Bangarapet,true
+TPT,Tirupattur,,SR,,,Tirupattur,true
+PTJ,Podanur,,SR,,,Podanur,true
+SRTL,Cherthala,,SR,,,Cherthala,true
+ALLP,Alappuzha,,SR,,,Alappuzha,true
+AMPA,Ambalappuzha,,SR,,,Ambalappuzha,true
+HAD,Haripad,,SR,,,Haripad,true
+AGTL,Agartala,,NFR,,,Agartala,true
+ABSA,Ambassa,,NFR,,,Ambassa,true
+DMR,Dharmanagar,,NFR,,,Dharmanagar,true
+BPB,Badarpur,,NFR,,,Badarpur,true
+NHLG,New Haflong,,NFR,,,New Haflong,true
+MYD,Manderdisa,,NFR,,,Manderdisa,true
+CPK,Chaparmukh,,NFR,,,Chaparmukh,true
+PPTA,Patliputra,,ECR,,,Patliputra,true
+DDE,Dondaicha,,WR,,,Dondaicha,true
+AN,Amalner,,WR,,,Amalner,true
+TKMG,Tikamgarh,,NCR,,,Tikamgarh,true
+KHGP,Khargapur,,NCR,,,Khargapur,true
+MCSC,Maharaja Chhatrasal Station Chhatarpur,,NCR,,,Maharaja Chhatrasal Station Chhatarpur,true
+KURJ,Khajuraho,,NCR,,,Khajuraho,true
+JAJ,Jhajha,,ECR,,,Jhajha,true
+JSME,Jasidih,,ER,,,Jasidih,true
+MDP,Madhupur,,ER,,,Madhupur,true
+CRJ,Chittaranjan,,ER,,,Chittaranjan,true
+BME,Barmer,,NWR,,,Barmer,true
+UTL,Utarlai,,NWR,,,Utarlai,true
+BUT,Baytu,,NWR,,,Baytu,true
+BLT,Balotra,,NWR,,,Balotra,true
+GTJT,Getor Jagatpura,,NWR,,,Getor Jagatpura,true
+BU,Baswa,,NWR,,,Baswa,true
+RHG,Rajgarh,,NWR,,,Rajgarh,true
+RAH,Ramgarh,,NCR,,,Ramgarh,true
+BEDM,Bedham,,NCR,,,Bedham,true
+BTSR,Bhuteshwar,,NCR,,,Bhuteshwar,true
+RGO,Rotegaon,,SCR,,,Rotegaon,true
+LSR,Lasur,,SCR,,,Lasur,true
+PTU,Partur,,SCR,,,Partur,true
+SELU,Selu,,SCR,,,Selu,true
+MVO,Manwath Road,,SCR,,,Manwath Road,true
+UMRI,Umri,,SCR,,,Umri,true
+DAB,Dharmabad,,SCR,,,Dharmabad,true
+AKE,Akanapet,,SCR,,,Akanapet,true
+MZL,Mirzapalli,,SCR,,,Mirzapalli,true
+BMO,Bolarum,,SCR,,,Bolarum,true
+KRY,Kadiri,,SCR,,,Kadiri,true
+MPL,Madanapalle Rd,,SCR,,,Madanapalle Rd,true
+PIL,Piler,,SCR,,,Piler,true
+SLY,Samalpatti,,SR,,,Samalpatti,true
+NMKL,Namakkal,,SR,,,Namakkal,true
+KRR,Karur,,SR,,,Karur,true
+KQN,Kodaikanal Road,,SR,,,Kodaikanal Road,true
+BDMJ,Bhodwal Majri,,NR,,,Bhodwal Majri,true
+JSGR,Jharsuguda Road,,ECOR,,,Jharsuguda Road,true
+SBP,Sambalpur,,ECOR,,,Sambalpur,true
+RAIR,Raikakhol,,ECOR,,,Raikakhol,true
+ANGL,Angul,,ECOR,,,Angul,true
+TLHR,Talcher,,ECOR,,,Talcher,true
+DNKL,Dhenkanal,,ECOR,,,Dhenkanal,true
+CPA,Kanpur Anwrganj,,NE,,,Kanpur Anwrganj,true
+GHJ,Gursahaiganj,,NE,,,Gursahaiganj,true
+CNA,Chanderia,,WR,,,Chanderia,true
+MVJ,Mavli,,NWR,,,Mavli,true
+RPZ,Rana Pratap Nagar,,NWR,,,Rana Pratap Nagar,true
+UDZ,Udaipur City,,NWR,,,Udaipur City,true
+KJH,Kajra,,ER,,,Kajra,true
+BHLE,Barahat,,ER,,,Barahat,true
+MDLE,Mandar Hill,,ER,,,Mandar Hill,true
+HSDA,Hansdiha,,ER,,,Hansdiha,true
+PYHT,Prayahat Halt,,ER,,,Prayahat Halt,true
+GODA,Godda,,ER,,,Godda,true
+AUBR,Anugraha N Road,,ECR,,,Anugraha N Road,true
+PSB,Parsabad,,ECR,,,Parsabad,true
+HZD,Hazaribagh Rd,,ECR,,,Hazaribagh Rd,true
+BRR,Barakar,,ER,,,Barakar,true
+RNG,Raniganj,,ER,,,Raniganj,true
+PAN,Panagarh,,ER,,,Panagarh,true
+BG,Bhongir,,SCR,,,Bhongir,true
+ZN,Jangaon,,SCR,,,Jangaon,true
+BUX,Bhandak,,CR,,,Bhandak,true
+WRR,Warora,,CR,,,Warora,true
+SNI,Sindi,,CR,,,Sindi,true
+AJNI,Ajni,,CR,,,Ajni,true
+AADR,Amb  Andaura,,NR,,,Amb  Andaura,true
+UHL,Una Himachal,,NR,,,Una Himachal,true
+NLDM,Nangal Dam,,NR,,,Nangal Dam,true
+ANSB,Anandpur Sahib,,NR,,,Anandpur Sahib,true
+RPAR,Rupnagar,,NR,,,Rupnagar,true
+MRND,Morinda,,NR,,,Morinda,true
+SASN,Sahibzada Ajit Singh Nagar,,NR,,,Sahibzada Ajit Singh Nagar,true
+CDG,Chandigarh,,NR,,,Chandigarh,true
+MKU,Malkapur,,CR,,,Malkapur,true
+VRG,Vikramnagar,,WR,,,Vikramnagar,true
+KTES,Katni South,,WCR,,,Katni South,true
+KGS,Khongsara,,SECR,,,Khongsara,true
+BIG,Belgahna,,SECR,,,Belgahna,true
+GTK,Ghutku,,SECR,,,Ghutku,true
+SNL,Sanahwal,,NR,,,Sanahwal,true
+DOA,Doraha,,NR,,,Doraha,true
+CHA,Chawapall,,NR,,,Chawapall,true
+DRLA,Daurala,,NR,,,Daurala,true
+GUH,Guldhar,,NR,,,Guldhar,true
+UDN,Udhna,,WR,,,Udhna,true
+VYA,Vyara,,WR,,,Vyara,true
+NWU,Navapur,,WR,,,Navapur,true
+SNK,Sindkheda,,WR,,,Sindkheda,true
+KEI,Kashi,,NR,,,Kashi,true
+JNU,Jaunpur,,NR,,,Jaunpur,true
+DLD,Dalauda,,WR,,,Dalauda,true
+JWO,Jawad Road,,WR,,,Jawad Road,true
+BDW,Bandanwara,,NWR,,,Bandanwara,true
+NSD,Nasirabad,,NWR,,,Nasirabad,true
+MDJN,Madar,,NWR,,,Madar,true
+NRI,Naraina,,NWR,,,Naraina,true
+MYS,Mysore,,SWR,,,Mysore,true
+MYA,Mandya,,SWR,,,Mandya,true
+KGI,Kengeri,,SWR,,,Kengeri,true
+DRU,Kadur,,SWR,,,Kadur,true
+CTA,Chitradurg,,SWR,,,Chitradurg,true
+BAY,Bellary,,SWR,,,Bellary,true
+VJPJ,Vijiypur Jammu,,NR,,,Vijiypur Jammu,true
+HRNR,Hira Nagar,,NR,,,Hira Nagar,true
+DZA,Dasuya,,NR,,,Dasuya,true
+JLN,Jakhalaun,,NCR,,,Jakhalaun,true
+VLR,Vellore Cantonment,,SR,,,Vellore Cantonment,true
+TNM,Tiruvannamalai,,SR,,,Tiruvannamalai,true
+PRT,Panruti,,SR,,,Panruti,true
+CUPJ,Cuddalore Port,,SR,,,Cuddalore Port,true
+VDL,Vaithisvarankoil,,SR,,,Vaithisvarankoil,true
+VLNK,Vellankanni,,SR,,,Vellankanni,true
+BE,Bareilly(nr),,NR,,,Bareilly(nr),true
+AO,Aonla,,NR,,,Aonla,true
+DUB,Dabtara,,NR,,,Dabtara,true
+CH,Chandausi,,NR,,,Chandausi,true
+BBA,Babrala,,NR,,,Babrala,true
+ALJN,Aligarh,,NCR,,,Aligarh,true
+ETUE,Etmadpur,,NCR,,,Etmadpur,true
+RBL,Rae Bareli,,NR,,,Rae Bareli,true
+GNG,Gauriganj,,NR,,,Gauriganj,true
+AME,Amethi,,NR,,,Amethi,true
+MBDP,Maa Belha Devi Dham Pratapgarh,,NR,,,Maa Belha Devi Dham Pratapgarh,true
+WR,Wardha,,CR,,,Wardha,true
+PLO,Pulgaon,,CR,,,Pulgaon,true
+DMN,Dhamangaon,,CR,,,Dhamangaon,true
+BD,Badnera,,CR,,,Badnera,true
+MZR,Murtajapur,,CR,,,Murtajapur,true
+SEG,Shegaon,,CR,,,Shegaon,true
+BNZ,Badshahnagar,,NE,,,Badshahnagar,true
+ASH,Aishbagh,,NE,,,Aishbagh,true
+KCVL,Thiruvananthapuram North,,SR,,,Thiruvananthapuram North,true
+HLN,Hole Narsipur,,SWR,,,Hole Narsipur,true
+HAS,Hassan,,SWR,,,Hassan,true
+HRR,Harihar,,SWR,,,Harihar,true
+HVR,Haveri,,SWR,,,Haveri,true
+DWR,Dharwar,,SWR,,,Dharwar,true
+DVD,Duvvada,,ECOR,,,Duvvada,true
+TNKU,Tanuku,,SCR,,,Tanuku,true
+BVRT,Bhimavaram Town,,SCR,,,Bhimavaram Town,true
+AKVD,Akividu,,SCR,,,Akividu,true
+KKLR,Kaikolur,,SCR,,,Kaikolur,true
+GDV,Gudivada,,SCR,,,Gudivada,true
+MLY,Maula Ali,,SCR,,,Maula Ali,true
+BSBS,Banaras,,NE,,,Banaras,true
+BRG,Bargarh,,NCR,,,Bargarh,true
+BTX,Bela Tal,,NCR,,,Bela Tal,true
+TKA,Teharka,,NCR,,,Teharka,true
+HSA,Hasimara,,NFR,,,Hasimara,true
+BNV,Binnaguri,,NFR,,,Binnaguri,true
+NMZ,New Mal,,NFR,,,New Mal,true
+ROHA,Roha,,CR,,,Roha,true
+KUDL,Kudal,,KRCL,,,Kudal,true
+BYNR,Mookambika Road Byndoor (h),,KRCL,,,Mookambika Road Byndoor (h),true
+MULK,Mulki,,KRCL,,,Mulki,true
+HMBD,Humnabad,,SCR,,,Humnabad,true
+BIDR,Bidar,,SCR,,,Bidar,true
+BHLK,Bhalki,,SCR,,,Bhalki,true
+UDGR,Udgir,,SCR,,,Udgir,true
+LTRR,Latur Road,,SCR,,,Latur Road,true
+LUR,Latur,,CR,,,Latur,true
+UMD,Usmanabad,,CR,,,Usmanabad,true
+BTW,Barsi Town,,CR,,,Barsi Town,true
+CSB,Shivaji Bridge,,NR,,,Shivaji Bridge,true
+TKJ,Tilak Bridge,,NR,,,Tilak Bridge,true
+OKA,Okhla,,NR,,,Okhla,true
+TKD,Tuglakabad,,NR,,,Tuglakabad,true
+FDN,Faridabad Nw Tn,,NR,,,Faridabad Nw Tn,true
+AST,Asaoti,,NR,,,Asaoti,true
+HDL,Hodal,,NCR,,,Hodal,true
+DDDM,Deen Dayal Dham,,NCR,,,Deen Dayal Dham,true
+RMJK,Ram Nagar,,NR,,,Ram Nagar,true
+CRWL,Chakrakwala,,NR,,,Chakrakwala,true
+TLHD,Talcher Road,,ECOR,,,Talcher Road,true
+SBPY,Sambalpur City,,ECOR,,,Sambalpur City,true
+ABS,Abohar,,NR,,,Abohar,true
+MOT,Malout,,NR,,,Malout,true
+GDB,Giddarbaha,,NR,,,Giddarbaha,true
+PUL,Rampura Phul,,NR,,,Rampura Phul,true
+BNN,Barnala,,NR,,,Barnala,true
+RCJ,Ranayala Jasnia,,WR,,,Ranayala Jasnia,true
+KRTH,Kiratgarh,,CR,,,Kiratgarh,true
+POX,Pola-patthar,,CR,,,Pola-patthar,true
+MJY,Maramjhiri,,CR,,,Maramjhiri,true
+BLU,Bilhaur,,NE,,,Bilhaur,true
+GWA,Ganj Dundwara,,NE,,,Ganj Dundwara,true
+SKA,Sikandra Rao,,NE,,,Sikandra Rao,true
+SBIB,Sabarmati Bg,,WR,,,Sabarmati Bg,true
+MMCT,Mumbai Central,,WR,,,Mumbai Central,true
+VARD,Vaikam Road,,SR,,,Vaikam Road,true
+TN,Tuticorin,,SR,,,Tuticorin,true
+DKZ,Delhi Kishangnj,,NR,,,Delhi Kishangnj,true
+TRTR,Tripunittura,,SR,,,Tripunittura,true
+MEJ,Maniyachchi,,SR,,,Maniyachchi,true
+VR,Virar,,WR,,,Virar,true
+MQ,Mannargudi,,SR,,,Mannargudi,true
+DHNE,Dhone,,SCR,,,Dhone,true
+SHNR,Shadnagar,,SCR,,,Shadnagar,true
+MRSH,Morshi,,CR,,,Morshi,true
+KMU,Kumbakonam,,SR,,,Kumbakonam,true
+PML,Papanasam,,SR,,,Papanasam,true
+TJ,Thanjavur,,SR,,,Thanjavur,true
+RNC,Ranchi,,SER,,,Ranchi,true
+MURI,Muri,,SER,,,Muri,true
+BKSC,Bokaro Steel City,,SER,,,Bokaro Steel City,true
+CRP,Chandrapura,,ECR,,,Chandrapura,true
+MTU,Matmari,,SCR,,,Matmari,true
+KO,Kosgi,,SCR,,,Kosgi,true
+RMR,Ramnagar,,NE,,,Ramnagar,true
+KPV,Kashipur,,NE,,,Kashipur,true
+BPZ,Bazpur,,NE,,,Bazpur,true

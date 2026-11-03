@@ -6,8 +6,10 @@ import { useEffect, useState } from "react";
 import { fetchProfile, signOut, type Profile } from "@/lib/api";
 
 const LINKS = [
-  { href: "/search", label: "Search" },
-  { href: "/saved", label: "Saved journeys" },
+  { href: "/book", label: "Book tickets" },
+  { href: "/my-bookings", label: "My bookings" },
+  { href: "/search", label: "Explore routes" },
+  { href: "/saved", label: "Saved" },
 ];
 
 export function Header() {
@@ -26,12 +28,12 @@ export function Header() {
   async function onSignOut() {
     await signOut();
     setProfile(null);
-    window.location.assign("/search");
+    window.location.assign("/book");
   }
 
   return (
     <header className="site-header">
-      <Link href="/search" className="brand">
+      <Link href="/book" className="brand">
         Reroute
       </Link>
       <nav className="tabs" aria-label="Sections">
@@ -41,6 +43,13 @@ export function Header() {
           </Link>
         ))}
       </nav>
+      {!profile && pathname !== "/signin" && (
+        <div className="account">
+          <Link href={`/signin?next=${encodeURIComponent(pathname)}`} className="button secondary account-signin">
+            Sign in
+          </Link>
+        </div>
+      )}
       {profile && (
         <div className="account">
           <span>{profile.name ?? profile.email ?? "Signed in"}</span>

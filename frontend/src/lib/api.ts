@@ -1,7 +1,7 @@
 // Browser client for the backend API. Like the old vanilla client it never throws: every outcome,
 // including network failures, comes back as a value the UI can show.
 
-import type { AlternativeSearchResult, Journey, SavedJourney } from "./types";
+import type { AlternativeSearchResult, Booking, ChatReply, ClassCode, Journey, PlanResult, Preference, RefundQuote, SavedJourney } from "./types";
 
 type Fetch = (url: string, init?: RequestInit) => Promise<Response>;
 const defaultFetch: Fetch = (url, init) => fetch(url, init);
@@ -182,6 +182,31 @@ export async function fetchProfile(fetchImpl: Fetch = defaultFetch): Promise<Pro
   }
 }
 
+export type PasswordAuthOutcome = { kind: "ok"; profile: Profile } | { kind: "error"; message: string };
+
+/** Email + password sign-in or sign-up. On success the session cookie is set by the response. */
+export async function passwordAuth(
+  mode: "signin" | "signup",
+  body: { email: string; password: string; name?: string },
+  fetchImpl: Fetch = defaultFetch,
+): Promise<PasswordAuthOutcome> {
+  let res: Response;
+  try {
+    res = await fetchImpl(`/auth/password/${mode}`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  } catch {
+    return NETWORK;
+  }
+  if (res.ok) {
+    try {
+      return { kind: "ok", profile: (await res.json()) as Profile };
+    } catch {
+      return { kind: "error", message: "Unexpected response from the server." };
+    }
+  }
+  if (res.status === 429) return { kind: "error", message: "Too many attempts. Wait a few minutes and try again." };
+  return { kind: "error", message: await message(res, mode === "signin" ? "Couldn't sign you in." : "Couldn't create your account.") };
+}
+
 export async function signOut(fetchImpl: Fetch = defaultFetch): Promise<void> {
   try {
     await fetchImpl("/auth/signout", { method: "POST" });
@@ -189,3 +214,64 @@ export async function signOut(fetchImpl: Fetch = defaultFetch): Promise<void> {
     /* the cookie may still be set; the next profile check will say so */
   }
 }
+
+// ---- Planner, bookings and assistant ------------------------------------------------------
+
+export type Outcome<T> = { kind: "ok"; data: T } | Failure;
+
+async function call<T>(url: string, init: RequestInit | undefined, fallback: string, fetchImpl: Fetch): Promise<Outcome<T>> {
+  let res: Response;
+  try {
+    res = await fetchImpl(url, init);
+  } catch {
+    return NETWORK;
+  }
+  if (!res.ok) {
+    const f = await failure(res, fallback);
+    // 502/503/504 carry a safe, user-facing message from the API (e.g. the assistant is busy).
+    if (f.kind === "error" && res.status >= 500) return { kind: "error", message: await message(res, fallback) };
+    return f;
+  }
+  try {
+    return { kind: "ok", data: (await res.json()) as T };
+  } catch {
+    return { kind: "error", message: "Unexpected response from the server." };
+  }
+}
+
+const json = (body: unknown): RequestInit => ({ method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+
+export type PlanQuery = {
+  from: string;
+  to: string;
+  date: string;
+  class: ClassCode;
+  passengers: number;
+  preference?: Preference;
+  berth?: string;
+  flexibleDays?: number;
+  maxTransfers?: number;
+};
+
+const planParams = (q: PlanQuery) =>
+  new URLSearchParams(Object.entries(q).filter(([, v]) => v !== undefined && v !== "").map(([k, v]) => [k, String(v)]));
+
+export const fetchPlan = (q: PlanQuery, f: Fetch = defaultFetch) => call<PlanResult>(`/plan?${planParams(q)}`, undefined, "Search failed.", f);
+
+export const bookOption = (optionId: string, f: Fetch = defaultFetch) =>
+  call<{ booking: Booking }>("/bookings", json({ optionId }), "Booking failed. Please try again.", f);
+
+export type AutoBookResult = { booking: Booking | null; attempts: { option: string; outcome: string }[]; message: string };
+export const autoBook = (q: PlanQuery & { maxFare?: number; requireConfirmed?: boolean; allowBerthChange?: boolean }, f: Fetch = defaultFetch) =>
+  call<AutoBookResult>("/bookings/auto", json(q), "Auto-booking failed. Please try again.", f);
+
+export const listBookings = (f: Fetch = defaultFetch) => call<{ bookings: Booking[] }>("/bookings", undefined, "Couldn't load your bookings.", f);
+
+export const fetchRefundQuote = (pnr: string, f: Fetch = defaultFetch) =>
+  call<RefundQuote>(`/bookings/${encodeURIComponent(pnr)}/refund`, undefined, "Couldn't get a refund quote.", f);
+
+export const cancelBooking = (pnr: string, f: Fetch = defaultFetch) =>
+  call<{ booking: Booking; promoted: number }>(`/bookings/${encodeURIComponent(pnr)}/cancel`, { method: "POST" }, "Couldn't cancel this booking.", f);
+
+export const sendChat = (message: string, reset = false, f: Fetch = defaultFetch) =>
+  call<ChatReply>("/chat", json({ message, reset }), "The assistant couldn't answer. Please try again.", f);

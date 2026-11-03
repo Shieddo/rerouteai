@@ -1,0 +1,73 @@
+# Dependencies
+node_modules
+
+# Build outputs
+dist
+out
+build
+*.tgz
+
+# Next.js
+.next
+next-env.d.ts
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+log.jsonl
+cost-ledger.jsonl
+
+# Coverage
+coverage
+*.lcov
+
+# Caches
+.eslintcache
+.cache
+*.tsbuildinfo
+.npm-cache
+.yarn/cache
+.pnpm-store
+
+# IDE / Editor
+.idea
+.vscode
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI tooling
+.agents/
+.claude/
+.cursor/
+.devin/
+
+# Backup files
+roster-backups/
+*.backup
+*.bak
+
+# Turbo
+.turbo
+
+# Gradle
+.gradle
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Misc
+*.tgz
+hooks.sock
+.floor-lock
+crashes/

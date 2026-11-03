@@ -13,7 +13,8 @@
     "db:migrate": "bun scripts/migrate.ts",
     "typecheck": "tsc --noEmit",
     "contract:emit": "prisma contract emit",
-    "postinstall": "prisma skills sync || exit 0"
+    "postinstall": "prisma skills sync || exit 0",
+    "data:align": "bun scripts/alignDataset.ts data/source data/railway"
   },
   "dependencies": {
     "@prisma/orm-postgres": "8.0.0-rc.13",

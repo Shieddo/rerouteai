@@ -1,0 +1,14 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "dependencies": {
+        "@pinecone-database/pinecone": "^9.1.0",
+      },
+    },
+  },
+  "packages": {
+    "@pinecone-database/pinecone": ["@pinecone-database/pinecone@9.1.0", "", {}, "sha512-+lFTXKgvVc28w83WN7ipcxkxr+MxQaxLhN7ICr7/J+eZ/Uw3/lZ8wMpub3CgpC4gHCY+Gmli2n25JgGGDdnHoA=="],
+  }
+}

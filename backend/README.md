@@ -10,6 +10,17 @@ bun run dev            # hot reload, http://localhost:8000
 bun run start
 ```
 
+## Email and password accounts
+
+Besides GitHub and Google, people can create an account with an email and password:
+
+| | |
+| --- | --- |
+| Sign up | `POST /auth/password/signup` `{ email, password, name? }` → 201 + session cookie (409 if the email already has a password account) |
+| Sign in | `POST /auth/password/signin` `{ email, password }` → 200 + session cookie; 401 "Incorrect email or password" for any wrong email or password |
+
+Passwords need 8–128 characters with a letter and a number and are stored as argon2id hashes (`Bun.password`) in `users.password_hash` (added by `bun run db:migrate`; additive). Emails are trimmed and lower-cased; they are not verified (no email is sent). Password accounts are never merged with a GitHub or Google account that uses the same address. Sign-in is rate limited per IP (the `/auth` limit) and per email (10 per 15 minutes).
+
 ## Development login (local only)
 
 Signs you in as a fixed "Development User" so you can use authenticated pages without GitHub or Google OAuth. It uses the normal session cookie and `requireAuth`, so protected routes behave exactly as they do for real users.

@@ -4,9 +4,11 @@ import { sendAuthFailure, type AuthFailure } from "./errorpage.ts";
 import { OAUTH_STATE_COOKIE, newOAuthState, openOAuthState, sameValue, sealOAuthState } from "./oauthstate.ts";
 import { ProviderError, isProvider, providers as defaultProviders, type ProviderName, type Providers } from "./providers.ts";
 import { requireAuth } from "./middleware.ts";
+import { normaliseEmail, PasswordAuthError, signInWithPassword, signUpWithPassword } from "./password.ts";
+import { rateLimit } from "../server/security.ts";
 import { safeNextPath } from "./redirect.ts";
 import { SESSION_COOKIE, createSessionToken, readCookie, sessionCookieClearOptions, sessionCookieOptions, verifySession } from "./session.ts";
-import { userStore } from "./userstore.ts";
+import { userStore, type User } from "./userstore.ts";
 
 type Env = Record<string, string | undefined>;
 export type AuthRouterOptions = {
@@ -90,6 +92,35 @@ export function createAuthRouter({ providers = defaultProviders, env = process.e
       sendAuthError(req, res, err, { provider, mode: saved.mode, next: saved.next });
     }
   });
+
+  // ---- Email + password ------------------------------------------------------------------
+  // JSON in, JSON out; the session cookie is the same one OAuth sets. The /auth per-IP limit in
+  // server/app.ts applies, plus a per-email budget so one account can't be guessed at from many IPs.
+  const perEmail = rateLimit({
+    windowMs: 15 * 60 * 1000,
+    max: 10,
+    key: (req) => `pw:${normaliseEmail((req.body as Record<string, unknown> | undefined)?.["email"]) ?? "invalid"}`,
+  });
+
+  const passwordRoute = (action: (body: Record<string, unknown>) => Promise<User>, status: number) =>
+    async (req: Request, res: Response) => {
+      if (!env["SESSION_SECRET"]) return void res.status(503).json({ error: "Sign-in is not configured" });
+      try {
+        const user = await action((req.body ?? {}) as Record<string, unknown>);
+        res.cookie(SESSION_COOKIE, createSessionToken(user.id, user.sessionVersion), sessionCookieOptions);
+        res.status(status).json({ id: user.id, email: user.email, name: user.name, provider: user.provider, next: safeNextPath((req.body as Record<string, unknown>)?.["next"]) });
+      } catch (err) {
+        if (err instanceof PasswordAuthError) return void res.status(err.status).json({ error: err.message, code: err.code });
+        console.error(err);
+        res.status(500).json({ error: "Internal server error" });
+      }
+    };
+
+  /** POST /auth/password/signup { email, password, name?, next? } -> 201 + session cookie */
+  router.post("/auth/password/signup", perEmail, passwordRoute((b) => signUpWithPassword({ email: b["email"], password: b["password"], name: b["name"] }), 201));
+
+  /** POST /auth/password/signin { email, password, next? } -> 200 + session cookie; 401 for any wrong email/password */
+  router.post("/auth/password/signin", perEmail, passwordRoute((b) => signInWithPassword({ email: b["email"], password: b["password"] }), 200));
 
   /**
    * POST /auth/signout: clears the cookie and, when the request carried a valid session, revokes

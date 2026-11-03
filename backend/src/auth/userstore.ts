@@ -1,7 +1,10 @@
 import type { ProviderName } from "./providers.ts";
 
-/** OAuth providers plus "dev", which only the development login (devlogin.ts) ever uses. */
-export type UserProvider = ProviderName | "dev";
+/**
+ * OAuth providers, "password" (email + password accounts, providerId = normalised email) and
+ * "dev", which only the development login (devlogin.ts) ever uses.
+ */
+export type UserProvider = ProviderName | "password" | "dev";
 
 /** Raised by `create` when that provider identity already has a user. */
 export class DuplicateUserError extends Error {
@@ -24,13 +27,17 @@ export type User = {
 export type UserStore = {
   findByProvider(provider: UserProvider, providerId: string): Promise<User | null>;
   findById(id: number): Promise<User | null>;
-  create(data: Omit<User, "id" | "sessionVersion">): Promise<User>;
+  /** `passwordHash` only for provider "password"; it is stored apart from the User object. */
+  create(data: Omit<User, "id" | "sessionVersion">, options?: { passwordHash?: string }): Promise<User>;
+  /** The stored password hash, or null for accounts without a password (OAuth, dev). */
+  getPasswordHash(id: number): Promise<string | null>;
   /** Invalidates every session token issued so far for this user (sign out everywhere). */
   revokeSessions(id: number): Promise<void>;
 };
 
 export function createMemoryUserStore(): UserStore {
   const users: User[] = [];
+  const hashes = new Map<number, string>();
   return {
     async findByProvider(provider, providerId) {
       return users.find((u) => u.provider === provider && u.providerId === providerId) ?? null;
@@ -38,13 +45,17 @@ export function createMemoryUserStore(): UserStore {
     async findById(id) {
       return users.find((u) => u.id === id) ?? null;
     },
-    async create(data) {
+    async create(data, options) {
       if (users.some((u) => u.provider === data.provider && u.providerId === data.providerId)) {
         throw new DuplicateUserError();
       }
       const user = { id: users.length + 1, sessionVersion: 0, ...data };
       users.push(user);
+      if (options?.passwordHash) hashes.set(user.id, options.passwordHash);
       return user;
+    },
+    async getPasswordHash(id) {
+      return hashes.get(id) ?? null;
     },
     async revokeSessions(id) {
       const i = users.findIndex((u) => u.id === id);
@@ -76,6 +87,7 @@ const resolve = selectUserStore();
 export const userStore: UserStore = {
   findByProvider: async (provider, providerId) => (await resolve()).findByProvider(provider, providerId),
   findById: async (id) => (await resolve()).findById(id),
-  create: async (data) => (await resolve()).create(data),
+  create: async (data, options) => (await resolve()).create(data, options),
+  getPasswordHash: async (id) => (await resolve()).getPasswordHash(id),
   revokeSessions: async (id) => (await resolve()).revokeSessions(id),
 };
