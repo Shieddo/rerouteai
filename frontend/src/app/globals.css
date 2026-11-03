@@ -192,3 +192,13 @@ select:focus-visible { outline:2px solid var(--accent); outline-offset:0; border
 .chat-input textarea:focus-visible { outline:2px solid var(--accent); outline-offset:0; }
 .chat-input button { align-self:stretch; }
 @media (max-width:560px) { .chat-panel { right:8px; left:8px; width:auto; bottom:64px; height:calc(100vh - 88px); } }
+
+/* Email + password sign-in */
+.auth-prompt { align-items:start; }
+.password-form { padding:0; border:0; background:none; display:grid; gap:14px; grid-template-columns:1fr; }
+.segmented { display:flex; border:1px solid var(--line); border-radius:var(--radius); overflow:hidden; }
+.segmented button { flex:1; padding:8px 10px; font-size:.8125rem; background:transparent; color:var(--fg); border:0; border-radius:0; }
+.segmented button:hover:not(:disabled) { background:var(--hover); }
+.segmented button.is-active { background:var(--ink); color:var(--on-ink); }
+.auth-links { flex-direction:row; flex-wrap:wrap; }
+.account-signin { padding:6px 14px; font-size:.75rem; }

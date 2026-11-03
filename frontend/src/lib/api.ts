@@ -182,6 +182,31 @@ export async function fetchProfile(fetchImpl: Fetch = defaultFetch): Promise<Pro
   }
 }
 
+export type PasswordAuthOutcome = { kind: "ok"; profile: Profile } | { kind: "error"; message: string };
+
+/** Email + password sign-in or sign-up. On success the session cookie is set by the response. */
+export async function passwordAuth(
+  mode: "signin" | "signup",
+  body: { email: string; password: string; name?: string },
+  fetchImpl: Fetch = defaultFetch,
+): Promise<PasswordAuthOutcome> {
+  let res: Response;
+  try {
+    res = await fetchImpl(`/auth/password/${mode}`, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
+  } catch {
+    return NETWORK;
+  }
+  if (res.ok) {
+    try {
+      return { kind: "ok", profile: (await res.json()) as Profile };
+    } catch {
+      return { kind: "error", message: "Unexpected response from the server." };
+    }
+  }
+  if (res.status === 429) return { kind: "error", message: "Too many attempts. Wait a few minutes and try again." };
+  return { kind: "error", message: await message(res, mode === "signin" ? "Couldn't sign you in." : "Couldn't create your account.") };
+}
+
 export async function signOut(fetchImpl: Fetch = defaultFetch): Promise<void> {
   try {
     await fetchImpl("/auth/signout", { method: "POST" });

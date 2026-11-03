@@ -43,6 +43,13 @@ export function Header() {
           </Link>
         ))}
       </nav>
+      {!profile && pathname !== "/signin" && (
+        <div className="account">
+          <Link href={`/signin?next=${encodeURIComponent(pathname)}`} className="button secondary account-signin">
+            Sign in
+          </Link>
+        </div>
+      )}
       {profile && (
         <div className="account">
           <span>{profile.name ?? profile.email ?? "Signed in"}</span>
