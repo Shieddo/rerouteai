@@ -1,19 +1,18 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { AuthPrompt } from "@/components/AuthPrompt";
+import { AuthCard, type Mode } from "@/components/AuthPrompt";
+import { safeNext } from "@/config/routes";
+import { fetchProfile } from "@/lib/api";
 
-export function SignInPage() {
+/** Shared by /signin and /signup. Already-signed-in visitors are sent straight on. */
+export function SignInPage({ mode = "signin" }: { mode?: Mode }) {
   // Read ?next= after mount so the static page needs no search-params boundary.
   const [next, setNext] = useState<string | undefined>(undefined);
   useEffect(() => {
-    setNext(new URLSearchParams(window.location.search).get("next") ?? "/book");
+    const target = safeNext(new URLSearchParams(window.location.search).get("next"));
+    setNext(target);
+    void fetchProfile().then((profile) => profile && window.location.assign(target));
   }, []);
-  return (
-    <>
-      <h1>Sign in to Reroute</h1>
-      <p className="lede">Book confirmed seats, manage your tickets and chat with the assistant.</p>
-      <AuthPrompt next={next} />
-    </>
-  );
+  return <AuthCard mode={mode} next={next} />;
 }

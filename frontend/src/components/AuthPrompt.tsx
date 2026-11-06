@@ -5,10 +5,11 @@
 // (/auth/<provider>/<signin|signup>), which owns state, PKCE and validation.
 
 import { useId, useState } from "react";
+import { safeNext } from "@/config/routes";
 import { passwordAuth } from "@/lib/api";
 
 type Provider = "github" | "google";
-type Mode = "signin" | "signup";
+export type Mode = "signin" | "signup";
 
 const PROVIDERS: { id: Provider; label: string }[] = [
   { id: "github", label: "GitHub" },
@@ -19,11 +20,9 @@ const PROVIDERS: { id: Provider; label: string }[] = [
 export const authHref = (provider: Provider, mode: Mode, next?: string) =>
   `/auth/${provider}/${mode}${next ? `?next=${encodeURIComponent(next)}` : ""}`;
 
-const safeNext = (next?: string) => (next && next.startsWith("/") && !next.startsWith("//") ? next : "/book");
-
-function PasswordForm({ next }: { next?: string }) {
+export function PasswordForm({ next, initialMode = "signin" }: { next?: string; initialMode?: Mode }) {
   const id = useId();
-  const [mode, setMode] = useState<Mode>("signin");
+  const [mode, setMode] = useState<Mode>(initialMode);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -105,6 +104,32 @@ function PasswordForm({ next }: { next?: string }) {
         {busy ? "Please wait…" : signup ? "Create account" : "Sign in"}
       </button>
     </form>
+  );
+}
+
+/** Full-page auth card for /signin and /signup: email form plus OAuth buttons for the given mode. */
+export function AuthCard({ mode, next }: { mode: Mode; next?: string }) {
+  const signup = mode === "signup";
+  return (
+    <div className="auth-card">
+      <h1>{signup ? "Create your account" : "Welcome back"}</h1>
+      <p className="lede">{signup ? "Start booking confirmed seats in under a minute." : "Sign in to book seats, manage tickets and chat with the assistant."}</p>
+      <div className="oauth-row">
+        {PROVIDERS.map(({ id, label }) => (
+          <a key={id} href={authHref(id, mode, next)} className="button secondary">
+            {signup ? "Sign up" : "Continue"} with {label}
+          </a>
+        ))}
+      </div>
+      <p className="divider">
+        <span>or use email</span>
+      </p>
+      <PasswordForm key={mode} next={next} initialMode={mode} />
+      <p className="auth-switch">
+        {signup ? "Already have an account?" : "New to Reroute?"}{" "}
+        <a href={`${signup ? "/signin" : "/signup"}${next ? `?next=${encodeURIComponent(next)}` : ""}`}>{signup ? "Sign in" : "Create an account"}</a>
+      </p>
+    </div>
   );
 }
 

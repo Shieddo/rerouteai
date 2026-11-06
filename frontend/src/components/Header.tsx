@@ -3,14 +3,8 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import { APP_NAV, ROUTES } from "@/config/routes";
 import { fetchProfile, signOut, type Profile } from "@/lib/api";
-
-const LINKS = [
-  { href: "/book", label: "Book tickets" },
-  { href: "/my-bookings", label: "My bookings" },
-  { href: "/search", label: "Explore routes" },
-  { href: "/saved", label: "Saved" },
-];
 
 export function Header() {
   const pathname = usePathname();
@@ -28,24 +22,24 @@ export function Header() {
   async function onSignOut() {
     await signOut();
     setProfile(null);
-    window.location.assign("/book");
+    window.location.assign(ROUTES.landing.href);
   }
 
   return (
     <header className="site-header">
-      <Link href="/book" className="brand">
+      <Link href={ROUTES.landing.href} className="brand">
         Reroute
       </Link>
       <nav className="tabs" aria-label="Sections">
-        {LINKS.map(({ href, label }) => (
+        {APP_NAV.map(({ href, label }) => (
           <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined}>
             {label}
           </Link>
         ))}
       </nav>
-      {!profile && pathname !== "/signin" && (
+      {!profile && (
         <div className="account">
-          <Link href={`/signin?next=${encodeURIComponent(pathname)}`} className="button secondary account-signin">
+          <Link href={`${ROUTES.signin.href}?next=${encodeURIComponent(pathname)}`} className="button secondary account-signin">
             Sign in
           </Link>
         </div>
